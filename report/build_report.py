@@ -637,7 +637,8 @@ if __name__ == "__main__":
                 for r in p.runs: r.text = ""
                 from docx_ieee import rich
                 rich(p, v)
-    doc.save(OUT_DOCX)
+    doc.save(OUT_DOCX, title="Multimodal Load-Shedding Risk Early Warning for Bangladesh",
+             author="Swagoto Utsab Singha Roy, Lamiya Zaman, Jannatul Ferdoushi Islam")
     n_eq, pages = finish_in_word(OUT_DOCX, OUT_PDF)
     print(f"saved {OUT_DOCX.name} and {OUT_PDF.name}: {pages} pages, {n_eq} equations, {doc.fig} figures, "
           f"{doc.tab} tables, {len(order)} references")

@@ -1,7 +1,7 @@
 """STEP 9 (FINAL): validation-tuned ensemble + refit on newer data + year-by-year evaluation + final forecast.
 
   python scripts/09_final_pipeline.py              # everything (about 30-60 min on CPU)
-  python scripts/09_final_pipeline.py --skip-deploy  # only the honest test evaluation (no live forecast)
+  python scripts/09_final_pipeline.py --skip-deploy  # only the test evaluation (no live forecast)
 
 Protocol (nothing here is chosen on the test set):
   A) Ensemble weights (GRU / XGBoost / persistence) are picked on VALIDATION (2024) using models trained on train only.

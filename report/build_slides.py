@@ -678,5 +678,9 @@ for sl in prs.slides:
     if sl.has_notes_slide and "@@LAB_SLIDE_NOTES@@" in sl.notes_slide.notes_text_frame.text:
         sl.notes_slide.notes_text_frame.text = "[Jannatul] " + _nts
 
+cp = prs.core_properties
+cp.title, cp.author = "Load-Shedding Risk Early Warning for Bangladesh", "Swagoto Utsab Singha Roy, Lamiya Zaman, Jannatul Ferdoushi Islam"
+cp.last_modified_by, cp.revision = "Swagoto Utsab Singha Roy", 1
+cp.comments = cp.subject = cp.keywords = ""
 prs.save(OUT)
 print("saved", OUT, "slides:", N[0])

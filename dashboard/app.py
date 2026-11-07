@@ -164,11 +164,10 @@ def show_fig(name, caption=None):
 
 
 # ----------------------------------------------------------------------------- sidebar
-st.sidebar.title("⚡ Load-Shedding EWS")
-st.sidebar.caption("Multimodal early warning of load-shedding risk for Bangladesh (National + 9 BPDB zones), "
-                   "T+1 and T+3 days ahead.")
-PAGES = ["🚨 Live alert", "🔮 Time machine (live model)", "🎛️ What-if simulator (your input)", "📈 Data explorer",
-         "🏆 Model results", "🧠 Explainability", "ℹ️ About the system"]
+st.sidebar.title("Load-Shedding Early Warning")
+st.sidebar.caption("Load-shedding risk for Bangladesh (national grid + 9 BPDB zones), 1 and 3 days ahead.")
+PAGES = ["Live alert", "Time machine", "What-if simulator", "Data explorer", "Model results", "Explainability",
+         "About"]
 _q = str(st.query_params.get("page", "")).lower()          # deep link, e.g. ...streamlit.app/?page=what-if
 _default = next((i for i, p in enumerate(PAGES) if _q and _q in p.lower()), 0)
 page = st.sidebar.radio("Go to", PAGES, index=_default)
@@ -184,9 +183,9 @@ if thr.exists():
 raw = load_raw_daily()
 
 # ============================================================================= 1. LIVE ALERT
-if page.startswith("🚨"):
+if page == "Live alert":
     fc, kind, fname = latest_forecast()
-    st.title("🚨 Load-shedding risk alert")
+    st.title("Load-shedding risk alert")
     if fc is None:
         st.error("No forecast file found in outputs/tables. Run `python scripts/09_final_pipeline.py` "
                  "(or `scripts/08_forecast_next_days.py`).")
@@ -194,7 +193,7 @@ if page.startswith("🚨"):
     as_of = fc["as_of"].iloc[0]
     h = st.radio("Horizon", ["T+1 (tomorrow)", "T+3 (3 days ahead)"], horizontal=True)
     hz = "T+1" if h.startswith("T+1") else "T+3"
-    st.caption(f"Data up to **{as_of}** · model: **{kind}** · file `{fname}`")
+    st.caption(f"Data up to **{as_of}**, model: {kind}, file `{fname}`")
 
     c1, c2, c3, c4 = st.columns(4)
     cnt = fc[f"{hz}_alert"].value_counts()
@@ -233,8 +232,8 @@ if page.startswith("🚨"):
         st.download_button("Download CSV", fc.to_csv(index=False), file_name=fname)
 
 # ============================================================================= 2. TIME MACHINE
-elif page.startswith("🔮"):
-    st.title("🔮 Time machine — run the trained model on any day")
+elif page == "Time machine":
+    st.title("Time machine: run the trained model on any day")
     st.caption("Pick a day as 'today'. The saved multimodal GRU (3 seeds, temperature-scaled) looks at the 14 days "
                "before it and predicts T+1 and T+3. For past days we also show what really happened.")
     pred, info = gru_all_predictions()
@@ -264,7 +263,7 @@ elif page.startswith("🔮"):
                       r[f"driver_{hz}"], r[f"actual_{hz}"])
 
     st.markdown("---")
-    st.subheader("📼 Replay: alerts vs reality over time")
+    st.subheader("Alerts vs what really happened")
     c1, c2 = st.columns([1, 2])
     unit = c1.selectbox("Unit", C.UNITS, index=1)
     d0 = max(dates[0], (pd.Timestamp(dates[-1]) - pd.Timedelta(days=120)).date())
@@ -308,11 +307,11 @@ elif page.startswith("🔮"):
         st.plotly_chart(fig3, width="stretch")
 
 # ============================================================================= 3. WHAT-IF
-elif page.startswith("🎛️"):
+elif page == "What-if simulator":
     from src import whatif as WI
-    st.title("🎛️ What-if simulator — give your own input, the model predicts live")
-    st.caption("Start from a real day, change today's numbers (demand, supply, shedding, gas shortage, temperature ...) "
-               "and the trained multimodal GRU re-computes the T+1 / T+3 risk instantly.")
+    st.title("What-if simulator")
+    st.caption("Start from a real day, change today's numbers (demand, supply, shedding, gas shortage, temperature) "
+               "and the trained GRU predicts the T+1 and T+3 risk again.")
     mods, err = load_models()
     if mods is None:
         st.error(err); st.stop()
@@ -340,7 +339,7 @@ elif page.startswith("🎛️"):
         return col.number_input(label, value=v, step=step, format=fmt, key=f"{key}_{unit}_{day}",
                                 placeholder="not reported")
 
-    st.markdown("#### ✏️ Your input for 'today'")
+    st.markdown("#### Your input for 'today'")
     edits = {}
     if unit != "National":
         st.markdown(f"**{unit} zone**")
@@ -389,7 +388,7 @@ elif page.startswith("🎛️"):
     P1, _, A1 = predict(mods, G1, W1, Cn1, Cc)
 
     st.markdown("---")
-    st.markdown("#### 🔮 Model output")
+    st.markdown("#### Model output")
     if changed:
         nice = {"z_demand": "zone demand", "z_supply": "zone supply", "z_shed": "zone shedding", "max_demand": "max demand",
                 "eve_gen": "evening-peak gen", "high_gen": "highest gen", "shed_nat": "national shedding",
@@ -418,18 +417,18 @@ elif page.startswith("🎛️"):
             st.plotly_chart(fig, width="stretch", key=f"wf{h}")
     st.caption(f"Model: multimodal GRU, 3 seeds averaged, temperature-scaled; 'Uncertain' if confidence < τ "
                f"(T+1 τ={TAU[1]:.2f}, T+3 τ={TAU[3]:.2f}). Weather from NASA (humidity, rain) is kept as in the real data.")
-    with st.expander("Try this in the demo"):
-        st.markdown("- Pick **Mymensingh**, raise *Zone load shedding* to ~300 MW for 3 days → T+1 goes towards **High**.\n"
-                    "- Set *Zone load shedding* to **0** and supply = demand → risk drops towards **Low**.\n"
-                    "- Raise *Gas / LF limitation* and lower *Evening-peak generation* → national risk rises.")
+    with st.expander("Things to try"):
+        st.markdown("- Pick Mymensingh and raise *Zone load shedding* to about 300 MW for 3 days. T+1 moves towards High.\n"
+                    "- Set *Zone load shedding* to 0 and make supply equal to demand. The risk drops towards Low.\n"
+                    "- Raise *Gas / LF limitation* and lower *Evening-peak generation*. The national risk goes up.")
 
 # ============================================================================= 4. DATA
-elif page.startswith("📈"):
-    st.title("📈 Data explorer")
+elif page == "Data explorer":
+    st.title("Data explorer")
     if raw is None:
         st.error(f"Dataset not found: {C.FINAL_FILE}")
         st.stop()
-    st.caption(f"{len(raw)} days · {raw.Date.min().date()} → {raw.Date.max().date()} · "
+    st.caption(f"{len(raw)} days from {raw.Date.min().date()} to {raw.Date.max().date()}, "
                f"sources: {', '.join(raw['source'].dropna().unique()) if 'source' in raw else 'V4'}")
     c1, c2 = st.columns([1, 2])
     unit = c1.selectbox("Unit", C.UNITS)
@@ -469,12 +468,12 @@ elif page.startswith("📈"):
         st.dataframe(raw.tail(200), width="stretch")
 
 # ============================================================================= 4. RESULTS
-elif page.startswith("🏆"):
-    st.title("🏆 Model results (test set)")
+elif page == "Model results":
+    st.title("Model results (test set)")
     fc = read_csv("final_comparison.csv")
     if fc is not None:
-        st.caption("Test = 2025–2026 (chronological split, nothing tuned on test). Macro-F1 over Low/Medium/High, "
-                   "all units pooled.")
+        st.caption("Test period is 2025-2026 and nothing was tuned on it. Macro-F1 over Low/Medium/High, "
+                   "all units together.")
         hz = st.radio("Horizon", ["T+1", "T+3"], horizontal=True)
         d = fc[fc.horizon == hz].copy()
         d = d[~d.model.str.contains("abstain")]
@@ -513,8 +512,8 @@ elif page.startswith("🏆"):
         show_fig("abstain_coverage_curve.png", "Abstain: coverage vs macro-F1")
     show_fig("confusion_mmgru.png", "Confusion matrix (MM-GRU)")
 
-    st.subheader("🧪 ML-lab experiments")
-    st.caption("PR-AUC of every model, attention vs concatenation fusion, multi-task vs single-task, and walk-forward "
+    st.subheader("Lab experiments")
+    st.caption("PR-AUC of the models, attention vs concatenation, multi-task vs single-task, and walk-forward "
                "validation (scripts/10_lab_experiments.py).")
     t1, t2, t3 = st.tabs(["PR-AUC (ranking)", "Fusion & multi-task", "Walk-forward"])
     with t1:
@@ -536,8 +535,8 @@ elif page.startswith("🏆"):
         show_fig("lab_walk_forward.png", "Walk-forward macro-F1: train on all earlier years, test on the next year")
 
 # ============================================================================= 5. EXPLAIN
-elif page.startswith("🧠"):
-    st.title("🧠 Why does the model predict that?")
+elif page == "Explainability":
+    st.title("Why does the model predict that?")
     att = read_csv("modality_attention.csv")
     if att is not None:
         st.subheader("Modality attention (average weight the GRU gives to each data source)")
@@ -572,23 +571,26 @@ elif page.startswith("🧠"):
 
 # ============================================================================= 6. ABOUT
 else:
-    st.title("ℹ️ How the system works")
+    st.title("How the system works")
     st.markdown("""
-**Goal:** warn 1 day (T+1) and 3 days (T+3) in advance whether load-shedding risk will be **Low / Medium / High**,
-for the national grid and 9 BPDB zones.
+**Goal:** predict 1 day (T+1) and 3 days (T+3) ahead whether the load-shedding risk will be Low, Medium or High,
+for the national grid and the 9 BPDB zones.
 
-**Pipeline**
-1. **Data** — Mendeley V4 daily BPDB dataset (2019–2024) + BPDB/NLDC reports 2025–2026 → one checked final file.
-2. **Labels** — shedding = 0 → Low; shedding/demand ≤ threshold → Medium; above → High (threshold from train only).
-3. **Three modalities** for a 14-day window:
-   - **Grid** — demand, supply, shedding, gap, generation, reserve margin
-   - **Weather** — temperature, humidity, rain (NASA POWER)
-   - **Context** — gas/coal limits, plants under maintenance, holidays, Ramadan/Eid, weekday, zone
-4. **Model** — GRU(grid) + GRU(weather) + MLP(context) → **modality attention** → 2 heads (T+1, T+3).
-5. **Trust** — temperature scaling (calibration) + **abstain** ("Uncertain") when confidence < τ.
-6. **Final alert** — ensemble of GRU + XGBoost + persistence, weights chosen on validation.
+**Steps**
+1. **Data:** the Mendeley V4 daily BPDB dataset (2019-2024) plus the BPDB/NLDC daily reports for 2025-2026, merged
+   into one file.
+2. **Labels:** no shedding is Low, shedding/demand up to the threshold is Medium, above it is High. The threshold
+   comes from the training years only.
+3. **Inputs:** the last 14 days of three kinds of data:
+   - grid: demand, supply, shedding, generation, reserve margin
+   - weather: temperature, humidity, rain (NASA POWER)
+   - context: gas/coal limits, plants under maintenance, holidays, Ramadan/Eid, weekday, zone
+4. **Model:** a GRU for the grid data, a GRU for the weather and an MLP for the context, combined with attention,
+   with one output for T+1 and one for T+3.
+5. **Confidence:** temperature scaling, and the model says "Uncertain" when its confidence is below τ.
+6. **Final alert:** a weighted mix of the GRU, XGBoost and persistence, with weights chosen on validation.
 
-**Honest evaluation** — chronological split, no leakage (tested), 3 seeds, compared against persistence and
-the BPDB forecast rule.
+**Evaluation:** the split is by date, there are tests for data leakage, the GRU is trained with 3 seeds, and
+everything is compared with persistence and a simple BPDB rule.
 """)
     show_fig("eda_demand_shedding.png", "Demand and shedding over time")

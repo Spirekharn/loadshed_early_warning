@@ -1,106 +1,122 @@
-# ⚡ Multimodal Load-Shedding Risk Early Warning for Bangladesh
+# Load-shedding risk early warning for Bangladesh
 
-**A Multimodal Deep Learning Framework for Explainable, Multi-Horizon Load-Shedding Risk Early Warning in Bangladesh**
-Machine Learning Lab project · Department of CSE, University of Asia Pacific
+ML Lab project, Department of CSE, University of Asia Pacific
 
-| Team member | ID |
+| Name | ID |
 |---|---|
 | Swagoto Utsab Singha Roy | 23101124 |
 | Lamiya Zaman | 23101132 |
 | Jannatul Ferdoushi Islam | 23101119 |
 
-For the **national grid and 9 BPDB zones**, the system predicts whether **tomorrow (T+1)** and **the third day ahead
-(T+3)** will be **Low / Medium / High** load-shedding risk. Each alert has a calibrated confidence, an **Uncertain**
-option when the model is not sure, and the **main driver** (grid, weather or context).
+Load shedding happens a lot in Bangladesh, especially in summer and when there is a fuel shortage. In this project we
+tried to predict it a few days before it happens. For the national grid and the 9 BPDB zones, the model says whether
+the load-shedding risk will be Low, Medium or High tomorrow (T+1) and three days from now (T+3). It also gives a
+confidence, and when the confidence is too low it says "Uncertain" instead of guessing.
 
-- 📊 **Live dashboard** (Streamlit): `dashboard/app.py` — live alert, *time machine* (run the trained model on any past
-  day), *what-if simulator* (change today's numbers, the GRU recomputes the risk), results and explainability.
-- 📓 **Kaggle notebook**: `notebooks/kaggle_loadshed_pipeline.ipynb` — clones this repo and runs the whole pipeline.
-- 📄 **IEEE report** sources: `report/` (figures, Word/PDF builder, slides).
+What's in the repo:
+- `dashboard/app.py`: Streamlit dashboard. It shows the latest alert, lets you run the model on any past day and
+  compare with what really happened, and has a what-if page where you can change the numbers and see how the
+  prediction changes.
+- `notebooks/kaggle_loadshed_pipeline.ipynb`: the notebook we used to run everything on Kaggle.
+- `report/`: our IEEE report, the slides and the scripts that make the figures.
 
----
+## Data
 
-## Results (strict chronological test: 2025 – Oct 2026, all 10 units, never used for any choice)
+- Mendeley dataset (V4) with daily demand, generation and load shedding for 2019 to 2024.
+- For 2025 and 2026 we wrote a scraper and parser for the daily BPDB/NLDC PDF reports (`scripts/06_extend_bpdb.py`).
+- Weather from NASA POWER and the Bangladesh holiday calendar.
 
-| Model | macro-F1 T+1 | macro-F1 T+3 | High recall T+1 | macro PR-AUC T+1 |
-|---|---|---|---|---|
-| Persistence (tomorrow = today) | 0.701 | 0.606 | 0.69 | 0.582 |
-| XGBoost | 0.620 | 0.495 | 0.53 | 0.702 |
-| Multimodal GRU (3 seeds) | 0.623 | 0.512 | 0.77 | 0.679 |
-| **Ensemble GRU + XGBoost + persistence (refit)** | **0.701** | **0.619** | 0.70 | **0.734**¹ |
-| Ensemble + abstain (answers 62 % / 60 % of unit-days) | **0.786** | **0.720** | **0.88** | – |
+After cleaning this gives 2,515 days. With 10 units (national + 9 zones) that is 24,920 samples.
 
-¹ train-only ensemble. Calibration (GRU, ECE): 0.123 → 0.040 at T+1 after temperature scaling.
-Persistence is a very strong baseline; the ensemble ties it at T+1, beats it at T+3, ranks risky days much better and
-is calibrated. Full tables: `outputs/summary.md`.
+## Method
 
-## How it works
+- **Labels:** Low = no load shedding, Medium = shedding/demand below a threshold, High = above it. The threshold is
+  the median of the non-zero ratios in the training years (7.6% for zones, 1.9% for national).
+- **Split by time:** train up to 2023, validation 2024, test 2025 to Oct 2026.
+- **Model:** the input is the last 14 days. One GRU reads the grid data, one reads the weather, and an MLP takes the
+  context (holidays, gas/coal limits, plants in maintenance). Attention combines them and there are two output
+  heads, one for T+1 and one for T+3. It has about 32k parameters and trains in a minute or two on a CPU.
+- **Confidence:** temperature scaling for calibration, and an abstain threshold chosen on the validation data.
+- **Final alert:** a weighted mix of the GRU, XGBoost and persistence, with the weights picked on validation.
+- **Leakage:** missing values are only filled from the past (max 3 days), labels are never filled, and scaling and
+  thresholds come from the training years only. `tests/test_pipeline.py` scrambles all the future data and checks
+  that nothing in the training data changes.
 
-```
-Mendeley V4 (2019-2024) + BPDB/NLDC PDF reports (2024-2026, own scraper/parser) + NASA POWER weather + calendar
-   → quality control → 2,515 days → leakage-safe 14-day windows for 10 units (24,920 samples)
-   → grid GRU + weather GRU + context embeddings → modality attention (one per horizon) → T+1 / T+3 heads
-   → temperature scaling → ensemble with XGBoost + persistence (weights from validation) → abstain if conf < τ
-```
+## Results
 
-* **Labels**: Low = no shedding; Medium = shedding/demand ≤ θ; High = above θ. θ = median non-zero ratio of the
-  training years (7.6 % zones, 1.9 % national).
-* **Split**: train ≤ 2023, validation 2024, test 2025–2026 (by the date of the T+3 target).
-* **No leakage**: past-only forward fill (≤ 3 days), labels never filled, train-only scaling/thresholds;
-  `tests/test_pipeline.py` scrambles all future data and checks that no training sample changes.
-* **Model**: 31,780 parameters, class-weighted cross-entropy, AdamW, early stopping, 3 seeds; ~90 s per model on CPU.
-* **Lab experiments** (`scripts/10_lab_experiments.py`): PR-AUC of every model, attention vs concatenation fusion,
-  multi-task vs single-task, walk-forward validation 2023 → 2026.
+Test period 2025 to Oct 2026, all units together, macro-F1 over the three classes.
 
-## Quick start
+| Model | T+1 | T+3 |
+|---|---|---|
+| Persistence (tomorrow = today) | 0.701 | 0.606 |
+| XGBoost | 0.620 | 0.495 |
+| Multimodal GRU (3 seeds) | 0.623 | 0.512 |
+| Final ensemble (retrained on 2019-2024) | 0.701 | 0.619 |
+| Final ensemble, only the days it doesn't abstain on (62% / 60% of days) | 0.786 | 0.720 |
+
+Persistence turned out to be a very strong baseline, because most days have the same risk as the day before. The
+ensemble ties with it for T+1 and is a bit better for T+3. It is clearly better at ranking risky days (macro PR-AUC
+0.734 vs 0.582) and it gives probabilities, so it can tell when it is not sure. In the lab experiments, attention vs
+concatenation and multi-task vs single-task didn't make a real difference. More tables are in `outputs/summary.md`.
+
+## How to run
 
 ```bash
-git clone https://github.com/<your-username>/loadshed-early-warning.git
-cd loadshed-early-warning
-python -m venv .venv            # Python 3.10 – 3.13
-# Windows: .venv\Scripts\activate      Linux/macOS: source .venv/bin/activate
+git clone https://github.com/Spirekharn/loadshed_early_warning.git
+cd loadshed_early_warning
+python -m venv .venv
+.venv\Scripts\activate            # on Linux/Mac: source .venv/bin/activate
 pip install -r requirements.txt
+```
 
+We used Python 3.13. Then:
+
+```bash
 python tests/test_pipeline.py            # leakage tests
-python scripts/check_saved_models.py     # shipped models reproduce the reported numbers
-streamlit run dashboard/app.py           # dashboard at http://localhost:8501
+python scripts/check_saved_models.py     # checks that the saved models give the same predictions
+streamlit run dashboard/app.py           # opens the dashboard on http://localhost:8501
 ```
 
-Reproduce everything (overwrites `outputs/`): `python scripts/run_all.py` (≈ 1.5 h CPU) or `--quick` (≈ 25 min).
+To run the whole pipeline again use `python scripts/run_all.py` (about 1.5 hours on a laptop CPU). There is also
+`--quick`, which takes about 25 minutes but the models are worse. Both overwrite the `outputs/` folder.
 
-| Step | Script | Purpose |
-|---|---|---|
-| 1 | `scripts/01_prepare.py` | labels, 14-day windows, EDA |
-| 2 | `scripts/02_download_weather.py` | NASA POWER weather (done; needs internet) |
-| 3 | `scripts/03_baselines.py` | persistence, BPDB rule, LogReg, RF, XGBoost, SHAP |
-| 4 | `scripts/04_train_nn.py` | multimodal GRU (3 seeds), calibration, abstain |
-| 5 | `scripts/05_ablation_lodo.py` | modality ablation, leave-one-division-out |
-| 6 | `scripts/06_extend_bpdb.py`, `06b_build_final_dataset.py` | BPDB scraper/parser, final dataset (done) |
-| 7 | `scripts/07_report.py` | `outputs/summary.md` |
-| 8 | `scripts/08_forecast_next_days.py --as-of YYYY-MM-DD` | forecast as of any day |
-| 9 | `scripts/09_final_pipeline.py` | validation-tuned ensemble, refit, final test, live forecast |
-| 10 | `scripts/10_lab_experiments.py` | lab experiments |
+| Script | What it does |
+|---|---|
+| `01_prepare.py` | labels, 14-day windows, data plots |
+| `02_download_weather.py` | downloads NASA POWER weather (already done, needs internet) |
+| `03_baselines.py` | persistence, BPDB rule, logistic regression, random forest, XGBoost, SHAP |
+| `04_train_nn.py` | multimodal GRU (3 seeds), calibration, abstain threshold |
+| `05_ablation_lodo.py` | modality ablation and leave-one-division-out |
+| `06_extend_bpdb.py`, `06b_build_final_dataset.py` | BPDB report scraper/parser and the final dataset (already done) |
+| `07_report.py` | writes `outputs/summary.md` |
+| `08_forecast_next_days.py --as-of YYYY-MM-DD` | forecast from any date |
+| `09_final_pipeline.py` | final ensemble, retraining, test results, latest forecast |
+| `10_lab_experiments.py` | PR-AUC, fusion, multi-task and walk-forward experiments |
 
-## Deploy the dashboard (Streamlit Community Cloud)
-New app → this repository → branch `main` → **main file `dashboard/app.py`**. `dashboard/requirements.txt` is light
-(streamlit, plotly, pandas, numpy): the GRU runs in NumPy from `outputs/models/mm_seed*.npz`, no PyTorch needed.
+## Dashboard on Streamlit Cloud
 
-## Repository layout
+New app, pick this repo, branch `main`, main file `dashboard/app.py`. It installs `dashboard/requirements.txt`, which
+doesn't have PyTorch: the dashboard runs the GRU in plain NumPy using the weights in `outputs/models/mm_seed*.npz`.
+
+## Folders
+
 ```
-src/          config, data preparation, models (nn.py), baselines, metrics, what-if helpers
-scripts/      pipeline steps 01–10, run_all.py, check_saved_models.py
-tests/        leakage / correctness tests
+src/          config, data preparation, models, baselines, metrics, what-if helpers
+scripts/      the pipeline steps (01 to 10), run_all.py, check_saved_models.py
+tests/        leakage tests
 dashboard/    Streamlit app
-notebooks/    Kaggle notebook, exploration notebook
-data/         raw (V4, NASA, extension), final (merged dataset), processed (model arrays)
-outputs/      figures, tables, trained models
-report/       IEEE report, slides and their figure scripts
+notebooks/    Kaggle notebook and an exploration notebook
+data/         raw data, the final merged dataset and the model input arrays
+outputs/      figures, tables and trained models
+report/       IEEE report and slides
 ```
 
-## Data sources and credits
-* M. I. Hossain, T. Nafs, S. Yeaser, A. Newaz, "Multi-year dataset on daily electricity demand, generation, load
-  shedding, and external conditions in Bangladesh," *Data in Brief* 62 (2025) 112014 — Mendeley Data (version 4).
-* Bangladesh Power Development Board, daily generation archive, https://misc.bpdb.gov.bd/daily-generation-archive
-* NASA Langley Research Center, POWER project, https://power.larc.nasa.gov/
+## Data sources
 
-Raw BPDB PDFs (~850 MB) are not stored here; `scripts/06_extend_bpdb.py --download` fetches them again.
+- M. I. Hossain, T. Nafs, S. Yeaser, A. Newaz, "Multi-year dataset on daily electricity demand, generation, load
+  shedding, and external conditions in Bangladesh," *Data in Brief* 62 (2025) 112014. Mendeley Data, version 4.
+- Bangladesh Power Development Board, daily generation archive: https://misc.bpdb.gov.bd/daily-generation-archive
+- NASA Langley Research Center, POWER project: https://power.larc.nasa.gov/
+
+The raw BPDB PDFs are about 850 MB so they are not in the repo. `python scripts/06_extend_bpdb.py --download` gets
+them again.

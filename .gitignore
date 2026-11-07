@@ -6,7 +6,6 @@ __pycache__/
 .ipynb_checkpoints/
 .vscode/
 .idea/
-.claude/
 
 # raw BPDB PDFs are ~850 MB: download them again with scripts/06_extend_bpdb.py --download
 data/raw/bpdb_pdfs/
@@ -15,5 +14,5 @@ data/raw/bpdb_pdfs/
 ~$*
 *.tmp
 
-# NOTE: data/processed, data/final and outputs/models are tracked ON PURPOSE (a few MB):
-# the Streamlit dashboard and the Kaggle notebook need them to run without re-training.
+# data/processed, data/final and outputs/models are kept in the repo (only a few MB)
+# because the dashboard and the Kaggle notebook need them to run without retraining

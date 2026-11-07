@@ -204,7 +204,10 @@ class IEEEDoc:
             r = p.add_run(f"[{k}]\t"); r.font.size = Pt(8)
             rich(p, e, size=8)
 
-    def save(self, path):
+    def save(self, path, title="", author=""):
+        cp = self.d.core_properties
+        cp.title, cp.author, cp.last_modified_by = title, author, author.split(",")[0]
+        cp.comments = cp.subject = cp.keywords = ""
         self.d.save(str(path))
 
 

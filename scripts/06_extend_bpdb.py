@@ -200,7 +200,7 @@ def diagnose(url=None, insecure=False):
             log("PDF failed:", repr(e))
     out = C.OUT / "bpdb_diagnostic.txt"
     out.write_text("\n".join(map(str, lines)), encoding="utf-8")
-    print("\nSAVED:", out, "and", C.OUT / "bpdb_archive_page.html", "-> send these two files to Claude")
+    print("\nSAVED:", out, "and", C.OUT / "bpdb_archive_page.html")
 
 
 

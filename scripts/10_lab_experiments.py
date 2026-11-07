@@ -1,10 +1,10 @@
-"""STEP 10 (ML LAB): the extra experiments promised in the lab proposal.
+"""STEP 10 (ML lab): the extra experiments from our lab proposal.
 
-  (a) PR-AUC (average precision) of every model on the 2025-2026 test period
-  (b) fusion ablation: learned modality ATTENTION (proposed) vs plain CONCATENATION
-  (c) MULTI-TASK (one network, T+1 and T+3 heads, proposed) vs SINGLE-TASK (one network per horizon)
-  (d) WALK-FORWARD (expanding-window) validation: test on 2023, then 2024, 2025, 2026, each time
-      re-building labels/scaling from that fold's own training years only
+  (a) PR-AUC (average precision) of the models on the 2025-2026 test period
+  (b) fusion: modality attention (our model) vs plain concatenation
+  (c) multi-task (one network with T+1 and T+3 heads, our model) vs single-task (one network per horizon)
+  (d) walk-forward (expanding window) validation: test on 2023, then 2024, 2025, 2026, each time
+      rebuilding the labels and scaling from that fold's own training years
 
   python scripts/10_lab_experiments.py                 # full: 3 seeds (about 35-45 min on a laptop CPU)
   python scripts/10_lab_experiments.py --quick         # 1 seed, 10 epochs (about 6-8 min)
@@ -12,7 +12,7 @@
 
 Needs: scripts/03_baselines.py and scripts/04_train_nn.py already run (their saved predictions are reused).
 Outputs: outputs/tables/lab_*.csv  and  outputs/figures/lab_*.png
-Nothing here is tuned on the test period: every model uses the same hyper-parameters as the main pipeline."""
+Nothing here is tuned on the test period, all models use the same hyper-parameters as the main pipeline."""
 from _common import *
 import argparse, json, time
 import numpy as np, pandas as pd
