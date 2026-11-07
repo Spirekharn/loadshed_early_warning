@@ -1,0 +1,40 @@
+column,parsed_share,match_with_V4
+Max. Demand at eve. peak (Generation end),1.0,0.822
+Max. Demand at eve. peak (Sub-station end),1.0,0.993
+Highest Generation (Generation end),1.0,0.993
+Minimum Generation (Generation end),1.0,0.993
+Day-peak Generation (Generation end),1.0,0.993
+Evening-peak Generation (Generation end),1.0,0.993
+Minimum Generation Forecast up to 8:00 hrs.,1.0,0.993
+Maximum Temperature in Dhaka was,0.0,
+Gas/LF limitation,1.0,0.993
+Coal supply Limitation,1.0,1.0
+Low water level in Kaptai lake,1.0,1.0
+Plants under shut down/ maintenance,1.0,1.0
+Dhaka_demand,1.0,0.993
+Dhaka_supply,1.0,0.993
+Dhaka_load,1.0,0.993
+Chattogram_demand,1.0,0.993
+Chattogram_supply,1.0,0.993
+Chattogram_load,1.0,1.0
+Rajshahi_demand,1.0,0.993
+Rajshahi_supply,1.0,0.993
+Rajshahi_load,1.0,0.993
+Mymensingh_demand,1.0,0.993
+Mymensingh_supply,1.0,1.0
+Mymensingh_load,1.0,0.993
+Sylhet_demand,1.0,0.993
+Sylhet_supply,1.0,0.993
+Sylhet_load,1.0,0.993
+Barishal_demand,1.0,0.993
+Barishal_supply,1.0,0.993
+Barishal_load,1.0,1.0
+Rangpur_demand,1.0,0.993
+Rangpur_supply,1.0,0.993
+Rangpur_load,1.0,0.993
+Cumilla_demand,1.0,0.993
+Cumilla_supply,1.0,0.993
+Cumilla_load,1.0,0.993
+Khulna_demand,1.0,0.993
+Khulna_supply,1.0,0.993
+Khulna_load,1.0,1.0

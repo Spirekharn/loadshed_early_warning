@@ -1,0 +1,15 @@
+date,T+1_alert,T+1_confidence,T+1_true,T+1_top_modality,T+3_alert,T+3_confidence,T+3_true,T+3_top_modality
+2026-10-14,High,0.57,Medium,grid,Uncertain,0.45,Medium,context
+2026-10-15,Medium,0.66,Medium,context,Medium,0.51,Medium,context
+2026-10-16,Uncertain,0.49,Medium,context,Uncertain,0.45,Medium,context
+2026-10-17,Medium,0.62,Medium,context,Medium,0.6,Medium,context
+2026-10-18,Medium,0.64,Medium,context,Medium,0.55,Medium,context
+2026-10-19,Medium,0.69,Medium,context,Medium,0.63,Medium,context
+2026-10-20,Medium,0.72,Medium,context,Medium,0.68,Low,context
+2026-10-21,Medium,0.7,Medium,context,Medium,0.54,Medium,context
+2026-10-22,Medium,0.73,Low,context,Medium,0.58,Medium,context
+2026-10-23,Medium,0.65,Medium,context,Medium,0.54,Medium,context
+2026-10-24,Medium,0.69,Medium,context,Medium,0.56,High,context
+2026-10-25,Medium,0.67,Medium,context,Medium,0.54,Medium,context
+2026-10-26,Medium,0.61,High,context,Medium,0.58,?,context
+2026-10-27,Medium,0.53,Medium,context,Medium,0.65,?,context

@@ -1,0 +1,60 @@
+{
+  "feat": {
+    "grid": [
+      "demand",
+      "supply",
+      "shed",
+      "shed_pos",
+      "gap",
+      "gap_ratio",
+      "shed_ratio",
+      "max_demand",
+      "eve_gen",
+      "high_gen",
+      "min_gen",
+      "reserve_margin",
+      "shed_nat_ratio"
+    ],
+    "weather": [
+      "temp",
+      "temp_roll3",
+      "temp_d1",
+      "t2m",
+      "rh2m",
+      "prec",
+      "prec_roll3"
+    ],
+    "ctx_num": [
+      "gas",
+      "coal",
+      "water",
+      "plants",
+      "gas_mean7",
+      "ramadan_t",
+      "ramadan_t1",
+      "ramadan_t3",
+      "eid_t1",
+      "eid_t3",
+      "weekend_t1",
+      "weekend_t3"
+    ],
+    "cat": [
+      "unit",
+      "dow_t1",
+      "dow_t3",
+      "month_t",
+      "hol_t1",
+      "hol_t3"
+    ]
+  },
+  "info": {
+    "has_ext": true,
+    "weather_nasa": true,
+    "thresholds": {
+      "zone_ratio": 0.07600950118764846,
+      "national_ratio": 0.019487525286581254
+    },
+    "train_end": "2023-12-31",
+    "val_end": "2024-12-31"
+  }
+}

@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<noscript>
+		
+		<img id="noscript" src="https://cms-assets.tutsplus.com/uploads/users/30/posts/25498/preview_image/preview-tag-noscript.png" alt="Your browser does not support JavaScript!">
+		<style>
+			#noscript{
+				width:100%;
+				height:100vh;
+			}
+
+			div { display:none; }
+		</style>
+	</noscript>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="csrf-token" content="kneWrn2zdNFYGbAT59HVq0zb19ZK6IrIavB4YjVU">
+	<link rel="shortcut icon" href="https://misc.bpdb.gov.bd/storage/favicon/favicon_20240609174735.png" type="image/x-icon">
+	<link rel="icon" href="https://misc.bpdb.gov.bd/storage/favicon/favicon_20240609174735.png" type="image/x-icon">
+	<title>BPDB | দৈনিক উৎপাদনের রেকর্ড</title>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="https://misc.bpdb.gov.bd/frontend/css/bootstrap.min.4.0.0.css">
+	<link rel="stylesheet" type="text/css" href="https://misc.bpdb.gov.bd/frontend/css/milumax.css">
+	<link rel="stylesheet" type="text/css" href="https://misc.bpdb.gov.bd/frontend/css/fontawesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://misc.bpdb.gov.bd/frontend/css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="https://misc.bpdb.gov.bd/frontend/css/bootstrap-select.min.css">
+	<link rel="stylesheet" type="text/css" href="https://misc.bpdb.gov.bd/frontend/css/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="https://misc.bpdb.gov.bd/frontend/css/style.min.css">
+	<link rel="stylesheet" type="text/css" href="https://misc.bpdb.gov.bd/frontend/css/skin/skin-1.css">
+	<link rel="stylesheet" type="text/css" href="https://misc.bpdb.gov.bd/frontend/css/templete.css">
+	<link rel="stylesheet" type="text/css" href="https://misc.bpdb.gov.bd/frontend/css/switcher.min.css">
+	<link rel="stylesheet" type="text/css" href="https://misc.bpdb.gov.bd/frontend/css/hover.min.css">
+	<link rel="stylesheet" type="text/css" href="https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/css/settings.min.css">
+	<link rel="stylesheet" type="text/css" href="https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/css/navigation.min.css">
+	<link rel="stylesheet" type="text/css" href="https://misc.bpdb.gov.bd/plugins/select2/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="https://misc.bpdb.gov.bd/plugins/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="https://misc.bpdb.gov.bd/plugins/sweetalert2/sweetalert2.min.css">
+    <link rel="stylesheet" type="text/css" href="https://misc.bpdb.gov.bd/common/css/common.css">
+	<script src="https://misc.bpdb.gov.bd/plugins/jquery/jquery.min.js"></script>
+	<script src="https://misc.bpdb.gov.bd/extra-plugins/notify/notify.js"></script>
+	<script type="text/javascript" src="https://misc.bpdb.gov.bd/plugins/sweetalert2/sweetalert2.min.js"></script>
+	<script src="https://misc.bpdb.gov.bd/plugins/jquery-validation/jquery.validate.min.js"></script>
+	<script src="https://misc.bpdb.gov.bd/plugins/jquery-validation/additional-methods.min.js"></script>
+	
+	<style type="text/css">
+		.header-style-4 .social-line li a:hover {
+			color: #1f4197;
+			background: white;
+			border: 1px solid #1f4197;
+		}
+		.header-style-4 .social-line li a {
+			color: white;
+			background: #1f4197;
+			border: 1px solid #e3e3e3;
+			border-width: 0 1px;
+			height: 45px;
+			line-height: 45px;
+			padding: 0 15px;
+			display: inline-block;
+			min-width: 45px;
+			cursor: pointer;
+		}
+		.mobile_social{
+			margin-top: 30px;
+		}
+		.institute_name{
+			color: #fff;
+			margin-top: -15px;
+			font-size: 30px;
+		}
+		.institute_address{
+			margin-top: -30px;
+			font-size: 14px;
+			color: #fff;
+			text-align: center;
+		}
+		@media    only screen and (min-width:320px) and (max-width:768px) {
+			.mobile_social{
+				margin-top: 0px;
+			}
+			.institute_img{
+				width: auto;
+				margin: 0 auto 10px;
+			}
+			.institute_img img{
+				max-width: 100%;
+				height: auto;
+				max-height: 90px;
+			}
+			.mobile_tutorial_img{
+				width: 100%;
+				margin-top: 0;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				text-align: center;
+			}
+			.mobile_tutorial_img h2{
+				margin: 0;
+				font-size: 20px;
+				line-height: 1.2;
+			}
+			.institute_name{
+				margin-top: 0px;
+				font-size: 20px;
+			}
+			.institute_address{
+				margin-top: 0px;
+			}
+			.mobile_social_div{
+				margin-left: -40px;
+				margin-bottom: 10px;
+			}
+		}
+
+		/*dropdown menu*/
+		.dropdown-menu {
+			padding: 0;
+			margin: 0;
+		}
+
+		.dropdown-item {
+			border: 1px solid #1f4197;
+		}
+	</style>
+</head>
+<body id="bg" class="boxed">
+	<div class="page-wraper">
+		<header class="site-header header-style-4">
+	<div class="bg-white" style="margin-bottom: -4px;margin-top: 1px;">
+		<div class="container-float">
+			<div class="col-md-12 col-lg-12">
+				<div class="row">
+					<div class="col-2 col-xl-2 col-sm-2 col-md-2 institute_img text-center">
+						<img src="https://misc.bpdb.gov.bd/storage/logo/logo_20240609174735.png" style="height: 80px;">
+					</div>
+					<div class="col-8 col-xl-8 col-sm-8 col-md-8 mobile_tutorial_img text-center">
+						<h2 class="milumax text-uppercase">
+							<a target="_blank" href="https://bpdb.gov.bd/" class="milumax">বাংলাদেশ বিদ্যুৎ উন্নয়ন বোর্ড</a>
+						</h2>
+					</div>
+					<div class="col-2 col-xl-2 col-sm-2 col-md-2 mobile_social_div text-center">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sticky-header main-bar-wraper">
+		<div class="main-bar clearfix ">
+			<div class="slide-up">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="header-nav collapse navbar-collapse" id="navbarTogglerDemo03">
+						<ul class="nav navbar-nav mr-auto mt-2 mt-lg-0">
+							<li class="nav-item milu1">
+								<a class=" nav-link" href="https://misc.bpdb.gov.bd">হোম</a>
+							</li>
+
+							<li class="nav-item milu2 dmenu">
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown">উৎপাদন</a>
+								<ul class="dropdown-menu sm-menu milu2">
+									<li>
+										<a class="dropdown-item" href="https://misc.bpdb.gov.bd/power-generation-unit">পাওয়ার জেনারেশন ইউনিট</a>
+										<a class="dropdown-item" href="https://misc.bpdb.gov.bd/daily-max-generation">সর্বাধিক উৎপাদন</a>
+										<a class="dropdown-item" href="https://misc.bpdb.gov.bd/daily-generation-archive">দৈনিক উৎপাদনের রেকর্ড</a>
+										<a class="dropdown-item" href="https://misc.bpdb.gov.bd/daily-generation">উৎপাদন বিবরণী</a>
+										
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item milu3">
+								<a class="nav-link" href="https://misc.bpdb.gov.bd/area-wise-demand">চাহিদা ও লোডশেডিং</a>
+							</li>
+							<li class="nav-item milu4">
+								<a class="nav-link" href="https://misc.bpdb.gov.bd/tender">দরপত্র</a>
+							</li>
+							<li class="nav-item milu1">
+								<a class="nav-link" href="https://misc.bpdb.gov.bd/office-order">অফিস আদেশ</a>
+							</li>
+							<li class="nav-item milu1">
+								<a class="nav-link" href="https://misc.bpdb.gov.bd/seniority">জ্যেষ্ঠতার তালিকা</a>
+							</li>
+							<li class="nav-item milu2">
+								<a class="nav-link" href="https://misc.bpdb.gov.bd/biddut-barta">বিদ্যুৎ বার্তা</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+		<div class="page-content">
+			<div>
+	<img src="https://misc.bpdb.gov.bd/frontend/images/main-slider/bpdb_image.jpg" width="100%">
+</div>			<div class="section-full  bg-img-fix bg-white choose-us">
+				<div class="content-area">
+					<div class="container">
+						<div class="row">
+    <div class="col-md-12">
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td class="text-center text-white" style="background: #1f4197;"><strong>Daily Generation Archive</strong></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-12">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table id="dataTable" class="table table-sm table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Date</th>
+                            <th>Page 1</th>
+                            <th>Page 2</th>
+                            <th>Page 3</th>
+                            <th>Summary</th>
+                            <th>Energy</th>
+                            <th>Load</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                          
+                        <tr>
+                            <td>1</td>
+                            <td>29/10/2026</td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261029_20261029143252.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261029_20261029143252.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261029_20261029143252.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261029_20261029143252.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/load_20261029_20261029143252.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                        </tr>
+                          
+                        <tr>
+                            <td>2</td>
+                            <td>28/10/2026</td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261028_20261028142935.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261028_20261028142935.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261028_20261028142935.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261028_20261028142935.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/load_20261028_20261028142935.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                        </tr>
+                          
+                        <tr>
+                            <td>3</td>
+                            <td>27/10/2026</td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261027_20261028140440.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261027_20261028140440.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261027_20261028140440.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261027_20261028140440.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/load_20261027_20261028140440.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                        </tr>
+                          
+                        <tr>
+                            <td>4</td>
+                            <td>26/10/2026</td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261026_20261027094839.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261026_20261027094839.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261026_20261027094839.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261026_20261027094839.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/load_20261026_20261027094839.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                        </tr>
+                          
+                        <tr>
+                            <td>5</td>
+                            <td>25/10/2026</td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261025_20261025111030.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261025_20261025111030.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261025_20261025111030.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/summary_20261025_20261026105821.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261025_20261025111030.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/load_20261025_20261025111030.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                        </tr>
+                          
+                        <tr>
+                            <td>6</td>
+                            <td>24/10/2026</td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261024_20261025105156.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261024_20261025105156.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261024_20261025105156.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/summary_20261024_20261026105802.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261024_20261025105156.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/load_20261024_20261025105156.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                        </tr>
+                          
+                        <tr>
+                            <td>7</td>
+                            <td>23/10/2026</td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261023_20261025103143.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261023_20261025103143.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261023_20261025103143.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/summary_20261023_20261026105748.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261023_20261025103143.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/load_20261023_20261025103143.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                        </tr>
+                          
+                        <tr>
+                            <td>8</td>
+                            <td>22/10/2026</td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261022_20261025095744.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261022_20261025095744.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261022_20261025095744.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/summary_20261022_20261026105735.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261022_20261025095744.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/load_20261022_20261025095744.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                        </tr>
+                          
+                        <tr>
+                            <td>9</td>
+                            <td>21/10/2026</td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261021_20261025093848.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261021_20261025093848.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261021_20261025093848.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/summary_20261021_20261026105714.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261021_20261025093848.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/load_20261021_20261025093848.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                        </tr>
+                          
+                        <tr>
+                            <td>10</td>
+                            <td>20/10/2026</td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261020_20261025091835.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261020_20261025091835.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261020_20261025091835.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/summary_20261020_20261025143041.pdf" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261020_20261025091835.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                            <td>
+                                                                <a target="_blank" href="https://misc.bpdb.gov.bd/storage/daily_archive/load_20261020_20261025091835.gif" class="btn btn-defualt btn-flat btn-sm"><i class="fa fa-download"></i> Download</a>
+                                                            </td>
+                        </tr>
+                            
+                    </tbody>                
+                </table>
+            </div>
+            <div class="d-flex justify-content-end pt-2">
+                <nav>
+        <ul class="pagination">
+            
+                            <li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Previous">
+                    <span class="page-link" aria-hidden="true">&lsaquo;</span>
+                </li>
+            
+            
+                            
+                
+                
+                                                                                        <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://misc.bpdb.gov.bd/daily-generation-archive?page=2">2</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://misc.bpdb.gov.bd/daily-generation-archive?page=3">3</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://misc.bpdb.gov.bd/daily-generation-archive?page=4">4</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://misc.bpdb.gov.bd/daily-generation-archive?page=5">5</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://misc.bpdb.gov.bd/daily-generation-archive?page=6">6</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://misc.bpdb.gov.bd/daily-generation-archive?page=7">7</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://misc.bpdb.gov.bd/daily-generation-archive?page=8">8</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://misc.bpdb.gov.bd/daily-generation-archive?page=9">9</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://misc.bpdb.gov.bd/daily-generation-archive?page=10">10</a></li>
+                                                                                        
+                                    <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
+                
+                
+                                            
+                
+                
+                                                                                        <li class="page-item"><a class="page-link" href="https://misc.bpdb.gov.bd/daily-generation-archive?page=691">691</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://misc.bpdb.gov.bd/daily-generation-archive?page=692">692</a></li>
+                                                                        
+            
+                            <li class="page-item">
+                    <a class="page-link" href="https://misc.bpdb.gov.bd/daily-generation-archive?page=2" rel="next" aria-label="Next &raquo;">&rsaquo;</a>
+                </li>
+                    </ul>
+    </nav>
+
+            </div>
+        </div>
+    </div>
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="site-footer" >
+	<div class="footer-artwork" id="footer-artwork">&nbsp;</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6">
+				<p class="copyright text-left m-t10 m-b0"><a target="_blank" rel="nofollow" href="https://www.nanosoftbd.com/">কারিগরি সহায়তায়ঃ ন্যানোসফট</a></p>
+			</div>
+			<div class="col-md-6">
+				<p class=" text-left m-t10 m-b0 pull-right">
+					কপিরাইট &copy; ২০২৬
+					বাংলাদেশ বিদ্যুৎ উন্নয়ন বোর্ড
+				</p>
+			</div>							
+		</div>
+	</div>	
+</footer>        <style type="text/css">
+    .preload {
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(35, 35, 35, 0.8);
+    }
+</style>
+<div class="preload" style="display: none;">
+    <img src="https://misc.bpdb.gov.bd/common/images/lottery.gif">
+</div>		<button class="scroltop fa fa-caret-up" ></button>
+	</div>
+	<div id="loading-ar ea"></div>
+    <script type="text/javascript" src="https://misc.bpdb.gov.bd/plugins/jquery-ui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+	<script type="text/javascript" src="https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script type="text/javascript" src="https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script type="text/javascript" src="https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script type="text/javascript" src="https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+	<script type="text/javascript" src="https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script type="text/javascript" src="https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script type="text/javascript" src="https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script type="text/javascript" src="https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/extensions/revolution.extension.video.min.js"></script>
+	<script type="text/javascript"  src="https://misc.bpdb.gov.bd/frontend/js/rev.slider.js"></script>
+	<script type="text/javascript"  src="https://misc.bpdb.gov.bd/frontend/js/bootstrap.min.js"></script>
+	<script src="https://misc.bpdb.gov.bd/plugins/select2/js/select2.full.min.js"></script>
+    <script src="https://misc.bpdb.gov.bd/plugins/moment/moment.min.js"></script>
+    <script src="https://misc.bpdb.gov.bd/plugins/daterangepicker/daterangepicker.js"></script>
+    <script src="https://misc.bpdb.gov.bd/common/js/common.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.select2').select2();
+		});
+	</script>
+	<script type="text/javascript">
+		jQuery(document).ready(function() {
+			'use strict';
+			dz_rev_slider_1();
+		});
+		$(document).ready(function () {
+			$('.navbar-light .dmenu').hover(function () {
+				$(this).find('.sm-menu').first().stop(true, true).slideDown(150);
+			}, function () {
+				$(this).find('.sm-menu').first().stop(true, true).slideUp(105)
+			});
+		});
+	</script>
+</body>
+</html>

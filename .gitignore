@@ -1,0 +1,19 @@
+# Python / editors
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.claude/
+
+# raw BPDB PDFs are ~850 MB: download them again with scripts/06_extend_bpdb.py --download
+data/raw/bpdb_pdfs/
+
+# Office temp files
+~$*
+*.tmp
+
+# NOTE: data/processed, data/final and outputs/models are tracked ON PURPOSE (a few MB):
+# the Streamlit dashboard and the Kaggle notebook need them to run without re-training.

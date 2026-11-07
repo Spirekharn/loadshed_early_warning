@@ -1,0 +1,605 @@
+== ARCHIVE PAGE == https://misc.bpdb.gov.bd/daily-generation-archive
+status 200 | bytes 38696 | text/html; charset=UTF-8
+title: BPDB | দৈনিক উৎপাদনের রেকর্ড
+links total: 80 | pdf links: 36
+-- first 15 pdf links
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261029_20261029143252.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261029_20261029143252.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261029_20261029143252.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261028_20261028142935.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261028_20261028142935.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261028_20261028142935.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261027_20261028140440.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261027_20261028140440.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261027_20261028140440.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261026_20261027094839.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261026_20261027094839.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261026_20261027094839.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261025_20261025111030.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261025_20261025111030.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261025_20261025111030.pdf
+-- last 15 pdf links
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261023_20261025103143.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261023_20261025103143.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/summary_20261023_20261026105748.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261022_20261025095744.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261022_20261025095744.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261022_20261025095744.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/summary_20261022_20261026105735.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261021_20261025093848.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261021_20261025093848.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261021_20261025093848.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/summary_20261021_20261026105714.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261020_20261025091835.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_2_20261020_20261025091835.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/page_3_20261020_20261025091835.pdf
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/summary_20261020_20261025143041.pdf
+-- non-pdf links that look like pagination/year (max 40)
+   দৈনিক উৎপাদনের রেকর্ড -> https://misc.bpdb.gov.bd/daily-generation-archive
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261029_20261029143252.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/load_20261029_20261029143252.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261028_20261028142935.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/load_20261028_20261028142935.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261027_20261028140440.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/load_20261027_20261028140440.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261026_20261027094839.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/load_20261026_20261027094839.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261025_20261025111030.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/load_20261025_20261025111030.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261024_20261025105156.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/load_20261024_20261025105156.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261023_20261025103143.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/load_20261023_20261025103143.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261022_20261025095744.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/load_20261022_20261025095744.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261021_20261025093848.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/load_20261021_20261025093848.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/energy_20261020_20261025091835.gif
+   Download -> https://misc.bpdb.gov.bd/storage/daily_archive/load_20261020_20261025091835.gif
+   2 -> https://misc.bpdb.gov.bd/daily-generation-archive?page=2
+   3 -> https://misc.bpdb.gov.bd/daily-generation-archive?page=3
+   4 -> https://misc.bpdb.gov.bd/daily-generation-archive?page=4
+   5 -> https://misc.bpdb.gov.bd/daily-generation-archive?page=5
+   6 -> https://misc.bpdb.gov.bd/daily-generation-archive?page=6
+   7 -> https://misc.bpdb.gov.bd/daily-generation-archive?page=7
+   8 -> https://misc.bpdb.gov.bd/daily-generation-archive?page=8
+   9 -> https://misc.bpdb.gov.bd/daily-generation-archive?page=9
+   10 -> https://misc.bpdb.gov.bd/daily-generation-archive?page=10
+   691 -> https://misc.bpdb.gov.bd/daily-generation-archive?page=691
+   692 -> https://misc.bpdb.gov.bd/daily-generation-archive?page=692
+   › -> https://misc.bpdb.gov.bd/daily-generation-archive?page=2
+-- script/api hints: []
+-- script src: ['https://misc.bpdb.gov.bd/plugins/jquery/jquery.min.js', 'https://misc.bpdb.gov.bd/extra-plugins/notify/notify.js', 'https://misc.bpdb.gov.bd/plugins/sweetalert2/sweetalert2.min.js', 'https://misc.bpdb.gov.bd/plugins/jquery-validation/jquery.validate.min.js', 'https://misc.bpdb.gov.bd/plugins/jquery-validation/additional-methods.min.js', 'https://misc.bpdb.gov.bd/plugins/jquery-ui/jquery-ui.min.js', 'https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js', 'https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js', 'https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.js', 'https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/extensions/revolution.extension.carousel.min.js', 'https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js', 'https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js', 'https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/extensions/revolution.extension.migration.min.js', 'https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/extensions/revolution.extension.navigation.min.js', 'https://misc.bpdb.gov.bd/frontend/plugins/revolution/revolution/js/extensions/revolution.extension.parallax.min.js']
+-- table rows on page: 12
+
+
+================ PDF: https://misc.bpdb.gov.bd/storage/daily_archive/page_1_20261029_20261029143252.pdf
+pages: 4
+
+--- page 1 TEXT ---
+QF-LDC-08(Sheet-1)
+page 1 of 3
+Power Grid Bangladesh PLC
+National Load Dispatch Center (NLDC)
+System Summary Report
+Date : 28-10-2026
+Power Supply Scenario
+Day Peak Generation 14895.99 MW 12:00 Hr. Energy Generated 350.68960 MKWHr.
+Day Peak Demand 15767.99 MW 12:00 Hr. Energy Unserverd 14.23700 MKWHr.
+Evening Peak Generation 15954.6 MW 19:00 Hr. Energy Demand 364.92660 MKWHr.
+Evening Peak Demand 16391.56 MW 18:00 Hr. Maximum Temperature 35.60 °C
+Minimum Generation of the Day 13305.08 MW 06:00 Hr. Total Gas Supplied 841.31 MMCFD
+Maximum Generation of the Day 15954.6 MW 19:00 Hr. Production Cost per KWHr 8.97201 Tk.
+Zone-wise Generation Summary (MKWHr.)
+Gas Coal HFO HSD Hydro Solar Import Wind Total
+Dhaka Zone 38.55 0.00 21.30 0.00 0.00 0.17 0.00 0.00 60.02
+Chattogram Zone 3.59 54.41 13.93 0.00 2.62 0.14 0.00 0.05 74.74
+Cumilla Zone 30.99 0.00 12.30 0.00 0.00 0.47 1.56 0.00 45.32
+Mymensingh Zone 0.26 0.00 4.99 0.00 0.00 0.40 0.00 0.00 5.65
+Sylhet Zone 21.55 0.00 0.00 0.00 0.00 0.07 0.00 0.00 21.62
+Khulna Zone 0.00 29.29 2.83 0.00 0.00 0.44 21.95 0.00 54.50
+Barishal Zone 2.72 42.23 1.62 0.00 0.00 0.00 0.00 0.00 46.57
+Rajshahi Zone 7.94 0.00 6.31 0.00 0.00 1.04 20.84 0.00 36.12
+Rangpur Zone 0.00 0.00 4.55 0.28 0.00 1.32 0.00 0.00 6.15
+Total 105.59 125.93 67.83 0.28 2.62 4.05 44.35 0.05 350.69
+Fuel-Wise Generation Summary Cost-Wise Generation Summary
+Gas Gas
+Coal Coal
+HFO HFO
+HSD HSD
+Hydro Hydro
+Solar Solar
+Import Import
+Wind Wind
+Production Cost (Tk.)
+Fuel Tk. Fuel Tk.
+Gas 382593538.5 Hydro 261620
+Coal 981269663.9 Solar 65100285.13
+HFO 1429066306 Import 277286311.4
+HSD 10094175 Wind 718473.6
+Total: 314,63,90,373 Tk.
+E-W Interconnector & Import Scenario
+Energy Flow from East to West: KWHr: 0 Import through HVDC C/B Interconnector: MKWHr: 21.04 Peak Hr Flow 876.00 MW at 19:00 hrs.
+Energy Flow from West to East: KWHr: 42505872.73 Import through Adani C/B Interconnector: MKWHr: 20.839465 Peak Hr Flow 904.32 MW at 19:00 hrs.
+Power Flow during Peak Demand (W-E): MW: 1978 Import through Cumilla C/B Interconnector: MKWHr: 1.56 Peak Hr Flow 82.00 MW at 19:00 hrs.
+Maximum Power Flow (W-E): MW: 2457 Total Import through C/B Interconnector: MKWHr: 43.439465 Peak Hr Flow 1862.32 MW at 19:00 hrs.
+Zone-wise Load-shed and Demand Summary (MW) at evening peak Hour (19:00 Hr.)
+Zone Load-Shed Demand
+Dhaka 69 6256
+Chattogram 38 1622
+Cumilla 61 1653
+Mymensingh 28 1075
+Sylhet 1 729
+Khulna 119 1901
+Barishal 13 510
+Rajshahi 16 1183
+Rangpur 10 832
+Total 355 15761
+Status of unavailable Power Plant
+Planned S/D Forced S/D
+Sl Plant Name Capacity Sl Plant Name Capacity
+1 Baghabari 100 MW GTPP 100 1 Fenchugonj CCPP Phase-1 ST 33
+2 Barapukuria TPP Unit-2 85 2 Fenchugonj CCPP Phase-2 GT-3 35
+3 Siddhirgonj 210 MW TPP 115 3 Fenchugonj CCPP Phase-2 ST 35
+4 Karnaphuli Hydro PP Unit-2 40
+5 Karnaphuli Hydro PP Unit-3 50
+6 Sylhet 225 MW CCPP ST 89
+Total 300 Total 282
+Total Unavailable Capacity 582
+Event Summary
+Outage Time Restoration Time Description of Event Description of Event
+08:02 14:52 Ishwardi-Rooppur 132kV Ckt-2 Scheduled S/D from Ishurdi 132/33kV end Due to Annual
+Maintenance Work
+08:06 16:02 Savar 132/33kV S/S Bus-B Scheduled S/D Due to Annual Maintenance
+08:15 15:54 Ishwardi-Rooppur 132kV Ckt-1 Scheduled S/D from Ruppur 132/11kV end.
+--- page 1 TABLE 0 (first 40 rows) ---
+['Day Peak Generation', '14895.99 MW 12:00 Hr.', 'Energy Generated', '350.68960 MKWHr.']
+['Day Peak Demand', '15767.99 MW 12:00 Hr.', 'Energy Unserverd', '14.23700 MKWHr.']
+['Evening Peak Generation', '15954.6 MW 19:00 Hr.', 'Energy Demand', '364.92660 MKWHr.']
+['Evening Peak Demand', '16391.56 MW 18:00 Hr.', 'Maximum Temperature', '35.60 °C']
+['Minimum Generation of the Day', '13305.08 MW 06:00 Hr.', 'Total Gas Supplied', '841.31 MMCFD']
+['Maximum Generation of the Day', '15954.6 MW 19:00 Hr.', 'Production Cost per KWHr', '8.97201 Tk.']
+--- page 1 TABLE 1 (first 40 rows) ---
+['', 'Gas', 'Coal', 'HFO', 'HSD', 'Hydro', 'Solar', 'Import', 'Wind', 'Total']
+['Dhaka Zone', '38.55', '0.00', '21.30', '0.00', '0.00', '0.17', '0.00', '0.00', '60.02']
+['Chattogram Zone', '3.59', '54.41', '13.93', '0.00', '2.62', '0.14', '0.00', '0.05', '74.74']
+['Cumilla Zone', '30.99', '0.00', '12.30', '0.00', '0.00', '0.47', '1.56', '0.00', '45.32']
+['Mymensingh Zone', '0.26', '0.00', '4.99', '0.00', '0.00', '0.40', '0.00', '0.00', '5.65']
+['Sylhet Zone', '21.55', '0.00', '0.00', '0.00', '0.00', '0.07', '0.00', '0.00', '21.62']
+['Khulna Zone', '0.00', '29.29', '2.83', '0.00', '0.00', '0.44', '21.95', '0.00', '54.50']
+['Barishal Zone', '2.72', '42.23', '1.62', '0.00', '0.00', '0.00', '0.00', '0.00', '46.57']
+['Rajshahi Zone', '7.94', '0.00', '6.31', '0.00', '0.00', '1.04', '20.84', '0.00', '36.12']
+['Rangpur Zone', '0.00', '0.00', '4.55', '0.28', '0.00', '1.32', '0.00', '0.00', '6.15']
+['Total', '105.59', '125.93', '67.83', '0.28', '2.62', '4.05', '44.35', '0.05', '350.69']
+--- page 1 TABLE 2 (first 40 rows) ---
+['Fuel', 'Tk.', 'Fuel', 'Tk.']
+['Gas', '382593538.5', 'Hydro', '261620']
+['Coal', '981269663.9', 'Solar', '65100285.13']
+['HFO', '1429066306', 'Import', '277286311.4']
+['HSD', '10094175', 'Wind', '718473.6']
+--- page 1 TABLE 3 (first 40 rows) ---
+['E-W Interconnector & Import Scenario', None, None, None, None, None, None, None]
+['Energy Flow from East to West:', 'KWHr:', '0', 'Import through HVDC C/B Interconnector:', 'MKWHr:', '21.04', 'Peak Hr Flow', '876.00 MW at 19:00 hrs.']
+['Energy Flow from West to East:', 'KWHr:', '42505872.73', 'Import through Adani C/B Interconnector:', 'MKWHr:', '20.839465', 'Peak Hr Flow', '904.32 MW at 19:00 hrs.']
+['Power Flow during Peak Demand (W-E):', 'MW:', '1978', 'Import through Cumilla C/B Interconnector:', 'MKWHr:', '1.56', 'Peak Hr Flow', '82.00 MW at 19:00 hrs.']
+['Maximum Power Flow (W-E):', 'MW:', '2457', 'Total Import through C/B Interconnector:', 'MKWHr:', '43.439465', 'Peak Hr Flow', '1862.32 MW at 19:00 hrs.']
+
+--- page 2 TEXT ---
+QF-LDC-08(Sheet-1)
+page 2 of 3
+Power Grid Bangladesh PLC
+National Load Dispatch Center (NLDC)
+System Summary Report
+Date : 28-10-2026
+08:33 16:46 Bogura-Sirajganj 230 kV Ckt-2 Scheduled S/D from Bogura 230/132kV end Due to Annual
+maintenance work and from Sirajgonj 230 end Due to For Annual Maintenance work.
+08:38 Bakulia 132/33kV S/S T-1 (402T) HT is restored.
+08:45 13:23 Fenchuganj-Fenchuganj 132 kV Ckt-1 Scheduled S/D from Fenchuganj 230/132/33kV end Due to
+Annual Maintenance
+08:45 16:38 Chowmuhani-Feni 132 kV Ckt-1 Scheduled S/D from Daganbhuiyan 132/33kV end Due to Schedule
+Shutdown
+08:48 17:53 Bheramara HVDC-Baharampur 400kV Ckt-1 Scheduled S/D from BIPTC end Due to Shutdown was
+taken for annual maintenance work.
+08:49 13:16 Baroirhat-PHP 132 kV Ckt-1 Scheduled S/D from Baroirhat 132/33kV end Due to Annual
+Maintenance work
+08:55 17:08 Barapukuria P/S-Purbasadipur 230 kV Ckt-2 Scheduled S/D from Purbasadipur 230/132/33kV
+end Due to Annual Maintenance
+08:58 16:40 Chowmuhani-Feni 132 kV Ckt-1 Scheduled S/D from Chowmuhani 230/132/33kV end Due to
+Insulator Disk changing .
+09:05 11:47 Faridpur-Rajbari 132 kV Ckt-2 Tripped from Rajbari 132/33kV end showing Distance Relay,
+86.1 & 86.2. relays. and from Faridpur 132/33kV end showing Distance Relay, Zone-1,
+relays Due to Trip
+09:10 16:16 Kallyanpur-Lalbag 132kV Ckt-1 Scheduled S/D from Kallyanpur 132/33kV end Due to Annual
+Maintenance
+09:11 Lalmonirhat 132/33kV S/S T-1 (425T) HT Scheduled S/D Due to Annual maintenance
+09:11 Lalmonirhat 132/33kV S/S T-1 (425T) LT Scheduled S/D Due to Annual maintenance
+09:15 17:03 Jamalpur-Mymensingh 132kV Ckt-1 Scheduled S/D from Jamalpur 132/33kV end Due to Annual
+Maintenance and from Mymensingh 132/33kV end Due to A/M
+09:35 Sylhet_(South) 132/33kV S/S Trafo-2 LT is restored.
+09:39 13:51 BSRM-Cumilla(N) 230 kV Ckt-1 Project Work S/D from Feni 230/132kV end Due to 230kV
+Kararhat ckt-1 S/D at 09:39 Hrs for withness of DFDR work at Kararhat grid end
+09:45 13:51 Korerhat 400/230/132kV S/S Feni-1 (D06) Project Work S/D Due to Project work (DFDR)
+09:50 Bibiyana South 400 MW Synchronized with remarks:- gt
+10:14 Kaliakoir 400/230/132kV S/S 400/230kV TR2 LT is restored.
+10:20 Shikalbaha 230/132kV S/S 132 kV Main Bus II Project Work S/D Due to New bay extension
+measurements
+10:40 Hathazari-Kaptai 132kV Ckt-2 is restored.
+10:45 17:06 Ghorasal-Tongi 230kV Ckt-1 Scheduled S/D from Tongi 230/132/33kV end Due to Annual
+maientenance
+11:31 15:45 Aminbazar-Mirpur 132kV Ckt-2 Scheduled S/D from Aminbazar 400/230/132kV end Due to Annual
+maintenance
+11:49 13:44 Feni-PHP 132kV Ckt-1 Tripped from Feni 132/33kV end showing Distance relay,A/R lockout. 8.0MW load
+relays Due to Unknown interrup. Feni
+132/33kV end
+11:55 13:44 Feni-PHP 132kV Ckt-1 Forced S/D from Feni 132/33kV end Due to For Fault remove 8.0MW load
+interrup. Feni
+132/33kV end
+12:00 Day Peak Generation: 14896 MW
+12:23 13:48 Satkhira 132/33kV S/S Transformer-2 (T-2) LT Forced S/D Due to Auxiliary Transformer-2 30.0MW load
+fuse maintenance work interrup.
+12:23 13:47 Satkhira 132/33kV S/S Transformer-2 (T-2) HT Forced S/D Due to Auxiliary Transformer-2
+fuse maintenance work
+12:58 Madunaghat 400/230kV S/S AT-2 LT is restored.
+13:59 Haripur 412 MW CCPP Synchronized with remarks:- ST
+14:07 Noapara 132/33kV S/S T-1 HT is restored.
+14:07 Noapara 132/33kV S/S T-1 LT is restored.
+15:02 Bibiana-II 341 MW CCPP (Summit) Shutdown with remarks:- ST
+
+--- page 3 TEXT ---
+QF-LDC-08(Sheet-1)
+page 3 of 3
+Power Grid Bangladesh PLC
+National Load Dispatch Center (NLDC)
+System Summary Report
+Date : 28-10-2026
+15:10 Bibiana-II 341 MW CCPP (Summit) Shutdown with remarks:- GT
+15:42 Kushtia 132/33kV S/S 132 KV Bus-A is restored.
+16:06 16:08 Lalmonirhat-Rangpur 132 kV Ckt-2 Tripped from Kurigram 132/33kV end showing siemens
+relays Due to During breaker operation at the lalmonirhat end, Lalmonirhat-Kurigram 132kv
+line Tripped.
+16:25 21:39 Ghorasal- Ishwardi 230 kV Ckt-2 Tripped from Ishurdi 230/132kV end showing Z1,13.2KM, A
+to G, Fault current: 7.2KA relays Due to Trip and from Ghorashal 230kV end showing
+SIEMENS relays.
+16:30 Patuakhali 132/33kV S/S 425T (T-3) LT is restored.
+16:30 Patuakhali 132/33kV S/S 425T (T-3) HT is restored.
+16:37 Chattak-Sunamganj 132 kV Ckt-2 is restored.
+16:40 New Tongi-Tongi 132kV Ckt-1 is restored.
+17:31 Bibiana-II 341 MW CCPP (Summit) Synchronized with remarks:- GT
+17:45 Gopalganj 132/33kV S/S T1 LT is restored.
+17:45 Gopalganj 132/33kV S/S T1 HT is restored.
+19:00 Evening peak generation is 15955 MW.
+19:12 Bibiyana-III 400 MW CCPP Synchronized with remarks:- GT
+20:56 21:59 Ishurdi 132/33kV S/S 132/33 kV T-1 LT Forced S/D Due to Red hot maintenance of 33KV 15.0MW load
+Lalpur feeder interrup.
+20:56 21:59 Ishurdi 132/33kV S/S 132/33 kV T-1 HT Forced S/D Due to Red hot maintenance of 33KV 15.0MW load
+Lalpur feeder interrup.
+23:29 Bibiyana South 400 MW Tripped with remarks:- gt
+02:47 Haripur 412 MW CCPP Tripped with remarks:- GT
+05:00 Minimum Generation: 12473 MW.
+06:04 Bakulia 132/33kV S/S T-1 (402T) LT Scheduled S/D
+06:04 Bakulia 132/33kV S/S T-1 (402T) HT Scheduled S/D
+06:30 Cumilla(S) 132/33kV S/S TR-1 HT Scheduled S/D 27.0MW load
+interrup.
+06:30 Cumilla(S) 132/33kV S/S TR-1 LT Scheduled S/D Due to 33 Kv Loop Maintenance. 27.0MW load
+interrup.
+06:37 Sylhet-Sylhet (South) 132KV Ckt-1 Scheduled S/D from Sylhet 132/33kV end Due to Yearly
+maintenance
+06:44 Rangpur - Taraganj 132kV Ckt-2 Forced S/D from Taraganj 132/33kV end Due to
+Saidpur-Boropukuria ckt S/D purpose
+06:45 Barapukuria-Rangpur 132 kV Ckt-2 Project Work S/D from Saidpur 132/33kV end.
+06:46 Barapukuria-Saidpur 132 kV Ckt-1 Project Work S/D from Barapukuria 230/132/33kV end Due
+to Project work
+06:46 Barapukuria-Saidpur 132 kV Ckt-2 Project Work S/D from Saidpur 132/33kV end. and from
+Barapukuria 230/132/33kV end Due to Project work
+07:05 Gopalganj 132/33kV S/S T1 LT Scheduled S/D Due to Annual maintenance
+07:06 Gopalganj 132/33kV S/S T1 HT Scheduled S/D Due to Annual maintenance
+07:32 Patuakhali 132/33kV S/S 425T (T-3) LT Scheduled S/D Due to Annual maintenance work -26
+07:33 Patuakhali 132/33kV S/S 425T (T-3) HT Scheduled S/D Due to Annual maintenance work -26
+07:38 Palashbari 132/33kV S/S TR2-404T LT Tripped showing Over Current. relays Due to 33 KV 44.0MW load
+feeder CT blast. interrup.
+07:38 Palashbari 132/33kV S/S TR1-414T LT Tripped showing Over Current. relays Due to 33 KV 44.0MW load
+feeder CT Blust. interrup.
+07:56 Noapara 132/33kV S/S T-1 LT Scheduled S/D Due to Annual Maintenance
+07:56 Noapara 132/33kV S/S T-1 HT Scheduled S/D Due to Annual Maintenance
+
+
+================ PDF: https://misc.bpdb.gov.bd/storage/daily_archive/summary_20261020_20261025143041.pdf
+pages: 2
+
+--- page 1 TEXT ---
+Bangladesh Power Development Board
+DAILY ELECTRICITY GENERATION REPORT (HFO Based) Office of the Member, Generation
+Tel : 9564667, 9551095
+Month October, 2026 Day:Tuesday Date : 20-10-2026
+Probable Maximum Demand : 15100.00 MW Probable Maximum Generation : 15100.00 MW
+Water Level of Kaptai Lake at 06:00 AM Yesterday = #N/A Today = ft. Rule Curve = #N/A ft.
+Sl. Name of Power Station Nos. of Unit Installed Derated/ 19-Oct-26 (Yesterday) 20-10-2026 (Today) 19.10.26 (Yesterday) Status of Machines under
+No. X Capacity Present Actual Peak Probable Peak Gen. shortfall for : shut-down/ Maintenance
+Ca ( p M a W ci ) ty (MW) Ca (M pa W ci ) ty Generation (MW) Generation (MW) G at a e s r / L C i o m a i l t / a o t i i l o /W n s M h a u c t h d in o e w s n Description/ Remarks P s r t o ar b t a -u b p le
+Day Evening Day Evening MW (MW) date
+(A) Plants in operation:
+1 Ghorasal Repowered CCPP Unit-3 (GT) Gas (PDB) 1 x 260 260 260 0 0 0 0 260 Under project work
+2 a) Ghorasal Repowered CCPP Unit-4 Gas (PDB) 1 x 210 210 180 0 0 230 230 180 Gas Shortage
+b) Ghorasal TPP Unit-5 Gas (PDB) 1 x 210 210 190 0 0 190 190 190 Gas Shortage
+3 Ghorasal 365 MW CCPP Unit-7 Gas (PDB) 1x 254+1x 126 365 365 0 0 260 260 365 Gas Shortage
+4 Ghorashal 108MW PP (Regent) Gas (IPP) 34x3.35 108 99 0 0 100 100 99 Gas Shortage
+5 Tongi 80 MW GTPP Gas (PDB) 1 x 105 105 105 0 0 0 0 105 Gas Shortage
+Haripur GTPP Gas (PDB) 1 x 32 0 0 0 0
+6 Meghnaghat 450 MW CCPP(MPL) Gas (IPP) 2x140+1x170 450 450 0 0 0 0 Contract Expired
+7 210 MW Siddhirgonj TPP Gas (PDB) 1 x 210 210 115 0 0 0 0 115 Under Overhauling
+8 Haripur 412 MW CCPP Gas (EGCB) 1x273+1x139 412 412 384 373 412 412
+9 Siddhirgonj 2*120 MW GTPP Gas (EGCB) 2 x 105 210 210 0 0 210 210 210 Gas Shortage
+10 Siddhirganj 335 MW CCPP Gas (EGCB) 1 x 217+1x118 335 335 318 290 335 335
+11 Meghnaghat 335MW CCPP(Summit) Gas (IPP) 2x110+1x110 335 335 0 0 335 335 335 Gas Shortage
+12 Madanganj-55 MW PP(Summit) HFO (IPP) 5x17.08+1x11.3 55 55 15 55 55 55
+13 Gagnagar 102 MW PP (Digital Power) HFO (IPP) 12x8.924 102 102 0 0 102 102
+Narshingdi 22 MW PP (Doreen) Gas (SIPP, REB) 8x2.90 0 0 0 0
+14 Summit Power Ashulia Gas (SIPP, REB)6x3.67+7x8.73 45 45 5.5 5.5 24.75 24.75
+Summit Power Madhabdi Gas (SIPP, REB) 6x3.67+7x8.73 35 35 19 18 22 22
+Maona 33 MW PP(Summit) Gas (SIPP, REB) 4x8.73
+Rupganj 33 MW PP(Summit) Gas (SIPP, REB) 4x8.73
+15 Gazipur 52 MW PP HFO (RPCL) 6x8.90 52 52 34 48 52 52
+16 Gazipur 100 MW PP HFO (RPCL) 6x18.415 105 105 70 0 105 105
+17 Kodda 150MW PP HFO BR-Power gen 9x17.06 149 149 90 94 133 133
+18 Kamalaghat 54 MW PP (Banco Energy) HFO (IPP) 3x18.69 54 54 17 54 54 54
+19 Kodda 300 MW PP Unit-2 (Summit) HFO (IPP) 18x17.076 300 300 98 196 300 300
+20 Kodda 149 MW PP Unit-1 (Summit) HFO (IPP) 8x18.415+1x8.97 149 149 97 133 149 149
+21 Nababganj 55 MW PP (Southern power ) HFO (IPP) 3x19.3 55 55 35 55 55 55
+22 Manikganj 55 MW PP (Northern) HFO (IPP) 3x19.3 55 55 35 55 55 55
+23 Meghnaghat 104 MW PP (OPSL) HFO (IPP) 6x18.5 104 104 0 0 104 104
+24 Manikgonj 162MW PP(MPGL) HFO (IPP) 9x18 162 162 144 157 162 162
+25 Manikgonj 35MW Solar PP (Inspectra Solar Ltd.) Solar (IPP) 1x35 35 35 33 0 30 0
+26 Kanchan Purbachal Power Generation Ltd. HFO (IPP) 3x19.404 55 55 54 54 55 55
+Keraniganj 100 MW PP (Powerpac) HFO (NENP) 8x13.45
+27 Unique Meghnaghat 584MW CCPP Gas (IPP) 1x400+1x184 584 584 440 460 584 584
+28 Meghnaghat 583 MW CCPP(Summit) Gas (IPP) 1x390+1x193 583 583 490 450 583 583
+29 Meghnaghat (Jera) 718MW CCPP Gas (IPP) 240*2+238 718 718 0 0 718 718 718 Gas Shortage
+30 Sripur 150 MW HFO BR-Power gen 150 160 160 143.42 143.42 143.42 143.42
+Dhaka Zone Total 6767 6613 2522 2641 5559 5529 2202 375
+31 Karnaphuli Hydro PP Unit-1,2,3,4, 5 Hydro (PDB) 2x40, 3x50 230 230 221 221 222 222
+32 Chattogram TPP Gas (PDB) 2 x 210 420 360 0 0 0 0 360 Gas Shortage
+33 Kaptai 7 MW Solar PP Solar (PDB) 6 6 3.19 0 3 0
+34 Raozan 25 MW PP HFO (RPCL) 3x8.9 25 25 2 25.5 26 26
+35 Teknaf 20MW PP (Solartech) Solar (IPP) 1x20 20 20 16 0 15 0
+36 Patenga 50MW PP (Baraka) HFO (IPP) 8x6.89 50 50 45 50 50 50
+37 Sikalbaha 105 MW PP (Baraka Sikalbaha) HFO (IPP) 6x18.415 105 105 92 105 105 105
+38 Shikalbaha Peaking GT Gas (PDB) 1 x 150 150 150 0 0 0 0 150 Under maint.
+39 Sikalbaha 225 MW CCPP Gas (PDB) 1 x 150+1 x 75 225 225 213 215 215 215
+40 Anwara 300 MW PP (United) HFO (IPP) 17x17.076+ 3x8.04 300 300 51 194 300 300
+41 Juldah 100 MW PP Unit-3 (Acorn) HFO (IPP) 8x13.45 100 100 0 37 100 100
+42 Dohazari -Kalaish 100 MW Peaking HFO (PDB) 6x17.0 102 98 0 57 0 68
+43 Hathazari 100 MW peaking PP HFO (PDB) 11x8.9 98 98 0 21 14 24
+* Malancha, Ctg.EPZ (United) Gas 5x8.73+3x9.34 0 0 30 30
+44 Chattogram 108 MW PP (ECPV) HFO (IPP) 16x7.00 108 108 25 51 95.1 95.1
+45 Sikalbaha 54 MW PP(Jodiac Power) HFO (IPP) 3x18.55+1x3.6 54 54 35 35 54 54
+46 Karnaphuli Power Ltd. HFO (IPP) 6x18.41+1x6.4 110 110 76 110 110 110
+47 Juldah unit-2 (Acorn) HFO (IPP) 8x13.6 100 100 25 25 100 100
+48 Chattogram 116 MW PP (Anlima Energy Ltd.) HFO (IPP) 6x21.06 116 116 91 107 116 116
+49 Mirsharai 150 MW HFO BR-Power gen 9x18.5 163 163 35 150 163 163
+50 Chattogram 2*612MW Coal Based PP (SS Power) Coal (IPP) 2x612 1224 1224 600 1050 1224 1224
+51 Matarbari 2*600 MW (CPGCL) Coal (CPGCL) 2x575 1150 1056 880 1080 1150 1150
+52 Cox's Bazar Wind PP (Wind) (IPP) 1x60 60 60 0 0 4 0
+Chattogram Zone Total 4916 4758 2410 3534 4096 4152 360 150
+53 Ashuganj 50 MW PP Gas (APSCL) 14x3.968 53 47 0 0 42 42
+54 Ashuganj 225 MW CCPP Gas (APSCL) 1×142+1*75 221 221 207 180 221.25 221.25
+55 Ashuganj 450 MW CCPP(South) Gas (APSCL) 1x360 360 319 280 275 342.01 342.01
+56 Ashuganj 450 MW CCPP(North) Gas (APSCL) 1x361 360 353 323 284 350 350
+57 Ashuganj 420 MW CCPP(East) Gas (APSCL) 1x284+1x116 400 393 200 0 280 280
+58 Ashuganj 195MW PP (APSCL-United) Gas (IPP) 20*9.73+1*16 195 195 16 35 195 195 160 Gas Shortage
+59 Ashuganj 51 MW PP (Midland) Gas (IPP) 6x9.34 51 51 44 44 51 51
+60 Ashuganj 150MW PP (Midland) HFO (IPP) 23x7.015 150 150 108 133 150 150
+61 Titas 50 MW Peaking PP HFO (PDB) 6x8.92 52 52 7 23 24 24
+62 Chandpur 150 MW CCPP Gas (PDB) 1X106+1x57 163 163 15 65 163 163
+63 Chandpur 200MW (Desh energy) HFO (IPP) 12x18.415 200 200 111 151 200 200
+Feni 11 MW PP (Doreen) Gas (SIPP, REB) 4x2.90 0 0 0 0
+64 Jangalia 52 MW PP (Lakdanavi) HFO (IPP) 6x8.92 52 52 30 52.2 52.2 52.2
+65 Cumilla 25 MW PP (Summit) Gas (SIPP, REB)3x3.67+2x6.97 25 25 10 12 24.5 24.5
+66 Feni 114 MW (Lakdanavi) HFO (IPP) 7*18.415+1*9.78 114 114 52 100 114 114
+67 Chowmuhani 113 MW HFO (IPP) 12*9.78+2*3.1 113 113 70 69 113 113
+68 Chandpur 115MW PP (Doreen) HFO (IPP) 4x18.516+2x25.4 115 115 30 108 115 115
+69 Ashuganj 55 MW PP (Precision) Gas (NENP) 1528*4 55 53 20 20 52.82 52.82
+70 Sonagazi 75 MW Solar Plant (Solar) (EGCB) 1x75 75 75 72 0 70 0
+** Impoprt (Tripura) India 160 160 70 72 84 82
+Cumilla Zone Total 2914 2851 1665 1623 2643 2571 160 0
+71 RPCL 210MW CCPP Gas (IPP) 4x35+1x70 210 210 0 0 210 210 210 Gas Shortage
+72 Jamalpur 115 MW PP (United) HFO (IPP) 12x9.87 115 115 78 88 115 115
+73 Mymensingh 200 MW PP (United) HFO (IPP) 21x9.780 200 200 75 161 200 200
+74 Muktagacha Solartech Energy Ltd Solar (IPP) 1x20 20 20 22 0 20 0
+75 Sarishabari 3 MW Solar Plant Solar (IPP) 1x3 3 3 2.3 0 2.1 0
+76 Sutiakhali 50 MW Solar PP Solar (IPP) 1x50 50 50 47.07 0 49.5 0
+77 Bhairob 54 MW PP HFO (IPP) 3x18.2 54 54 35 35 54.5 54.5
+78 Tangail 22 MW PP(PPGL) HFO (IPP) 4x6.7 22 22 24 24 22 22
+Mymensing Zone Total 674 674 283 308 673 602 210 0
+--- page 1 TABLE 0 (first 40 rows) ---
+['Bangladesh Power Development Board\nDAILY ELECTRICITY GENERATION REPORT (HFO Based) Office of the Member, Generation\nTel : 9564667, 9551095', None, None, None, None, None, None, None, None, None, None, None, None]
+['Month October, 2026', None, None, None, 'Day:Tuesday', None, None, None, None, 'Date :', '20-10-2026', None, None]
+['Probable Maximum Demand : 15100.00 MW Probable Maximum Generation : 15100.00 MW', None, None, None, None, None, None, None, None, None, None, None, None]
+['Water Level of Kaptai Lake at 06:00 AM Yesterday = #N/A Today = ft. Rule Curve = #N/A ft.', None, None, None, None, None, None, None, None, None, None, None, None]
+['Sl.\nNo.', 'Name of Power Station', 'Nos. of Unit\nX\nCapacity\n(MW)', 'Installed\nCapacity\n(MW)', 'Derated/\nPresent\nCapacity\n(MW)', '19-Oct-26 (Yesterday)', None, '20-10-2026 (Today)', None, '19.10.26 (Yesterday)\nGen. shortfall for :', None, 'Status of Machines under\nshut-down/ Maintenance', None]
+[None, None, None, None, None, 'Actual Peak\nGeneration (MW)', None, 'Probable Peak\nGeneration (MW)', None, None, None, None, None]
+[None, None, None, None, None, None, None, None, None, 'Gas/Coal/oil/W\nater Limitation\nMW', 'Machines\nshut down\n(MW)', 'Description/ Remarks', 'Probable\nstart-up\ndate']
+[None, None, None, None, None, 'Day', 'Evening', 'Day', 'Evening', None, None, None, None]
+['(A) Plants in operation:', None, None, None, None, None, None, None, None, None, None, None, None]
+['1', 'Ghorasal Repowered CCPP Unit-3 (GT) Gas (PDB)', '1 x 260', '260', '260', '0', '0', '0', '0', '', '260', 'Under project work', '']
+['2', 'a) Ghorasal Repowered CCPP Unit-4 Gas (PDB)', '1 x 210', '210', '180', '0', '0', '230', '230', '180', '', 'Gas Shortage', '']
+[None, 'b) Ghorasal TPP Unit-5 Gas (PDB)', '1 x 210', '210', '190', '0', '0', '190', '190', '190', '', 'Gas Shortage', '']
+['3', 'Ghorasal 365 MW CCPP Unit-7 Gas (PDB)', '1x 254+1x 126', '365', '365', '0', '0', '260', '260', '365', '', 'Gas Shortage', '']
+['4', 'Ghorashal 108MW PP (Regent) Gas (IPP)', '34x3.35', '108', '99', '0', '0', '100', '100', '99', '', 'Gas Shortage', '']
+['5', 'Tongi 80 MW GTPP Gas (PDB)', '1 x 105', '105', '105', '0', '0', '0', '0', '105', '', 'Gas Shortage', '']
+['', 'Haripur GTPP Gas (PDB)', '1 x 32', '', '', '0', '0', '0', '0', '', '', '', '']
+['6', 'Meghnaghat 450 MW CCPP(MPL) Gas (IPP)', '2x140+1x170', '450', '450', '0', '0', '0', '0', '', '', 'Contract Expired', '']
+['7', '210 MW Siddhirgonj TPP Gas (PDB)', '1 x 210', '210', '115', '0', '0', '0', '0', '', '115', 'Under Overhauling', '']
+['8', 'Haripur 412 MW CCPP Gas (EGCB)', '1x273+1x139', '412', '412', '384', '373', '412', '412', '', '', '', '']
+['9', 'Siddhirgonj 2*120 MW GTPP Gas (EGCB)', '2 x 105', '210', '210', '0', '0', '210', '210', '210', '', 'Gas Shortage', '']
+['10', 'Siddhirganj 335 MW CCPP Gas (EGCB)', '1 x 217+1x118', '335', '335', '318', '290', '335', '335', '', '', '', '']
+['11', 'Meghnaghat 335MW CCPP(Summit) Gas (IPP)', '2x110+1x110', '335', '335', '0', '0', '335', '335', '335', '', 'Gas Shortage', '']
+['12', 'Madanganj-55 MW PP(Summit) HFO (IPP)', '5x17.08+1x11.', '3 55', '55', '15', '55', '55', '55', '', '', '', '']
+['13', 'Gagnagar 102 MW PP (Digital Power) HFO (IPP)', '12x8.924', '102', '102', '0', '0', '102', '102', '', '', '', '']
+['', 'Narshingdi 22 MW PP (Doreen) Gas (SIPP, REB)', '8x2.90', '', '', '0', '0', '0', '0', '', '', '', '']
+['14', 'Summit Power Ashulia Gas (SIPP, REB)', '6x3.67+7x8.73', '45', '45', '5.5', '5.5', '24.75', '24.75', '', '', '', '']
+[None, 'Summit Power Madhabdi Gas (SIPP, REB)', '6x3.67+7x8.73', '35', '35', '19', '18', '22', '22', '', '', '', '']
+['', 'Maona 33 MW PP(Summit) Gas (SIPP, REB)', '4x8.73', '', '', '', '', '', '', '', '', '', '']
+['', 'Rupganj 33 MW PP(Summit) Gas (SIPP, REB)', '4x8.73', '', '', '', '', '', '', '', '', '', '']
+['15', 'Gazipur 52 MW PP HFO (RPCL)', '6x8.90', '52', '52', '34', '48', '52', '52', '', '', '', '']
+['16', 'Gazipur 100 MW PP HFO (RPCL)', '6x18.415', '105', '105', '70', '0', '105', '105', '', '', '', '']
+['17', 'Kodda 150MW PP HFO BR-Power gen', '9x17.06', '149', '149', '90', '94', '133', '133', '', '', '', '']
+['18', 'Kamalaghat 54 MW PP (Banco Energy) HFO (IPP)', '3x18.69', '54', '54', '17', '54', '54', '54', '', '', '', '']
+['19', 'Kodda 300 MW PP Unit-2 (Summit) HFO (IPP)', '18x17.076', '300', '300', '98', '196', '300', '300', '', '', '', '']
+['20', 'Kodda 149 MW PP Unit-1 (Summit) HFO (IPP) 8', 'x18.415+1x8.9', '7 149', '149', '97', '133', '149', '149', '', '', '', '']
+['21', 'Nababganj 55 MW PP (Southern power ) HFO (IPP)', '3x19.3', '55', '55', '35', '55', '55', '55', '', '', '', '']
+['22', 'Manikganj 55 MW PP (Northern) HFO (IPP)', '3x19.3', '55', '55', '35', '55', '55', '55', '', '', '', '']
+['23', 'Meghnaghat 104 MW PP (OPSL) HFO (IPP)', '6x18.5', '104', '104', '0', '0', '104', '104', '', '', '', '']
+['24', 'Manikgonj 162MW PP(MPGL) HFO (IPP)', '9x18', '162', '162', '144', '157', '162', '162', '', '', '', '']
+['25', 'Manikgonj 35MW Solar PP (Inspectra Solar Ltd.) Solar (IPP)', '1x35', '35', '35', '33', '0', '30', '0', '', '', '', '']
+
+--- page 2 TEXT ---
+Sl. Name of Power Station Nos. of Unit Installed Derated/ 19-Oct-26 (Yesterday) 20-10-2026 (Today) 19.10.26 (Yesterday) Status of Machines under
+No. X Capacity Present Actual Peak Probable Peak Gen. shortfall for : shut-down/ Maintenance
+Ca ( p M a W ci ) ty (MW) Ca (M pa W ci ) ty Generation (MW) Generation (MW) G at a e s r / L C i o m a i l t / a o t i i l o /W n s M h a u c t h d in o e w s n Description/ Remarks P s r t o ar b t a -u b p le
+Day Evening Day Evening MW (MW) date
+79 Fenchugonj CCPP Phase-1 Gas (PDB) 2x32+1x33 97 70 40 40 0 0
+80 Fenchugonj CCPP Phase-2 Gas (PDB) 2x35+1x35 104 90 0 20 30 30 70 Gas Shortage
+81 Kushiara 163 MW CCPP (KP) Gas (IPP) 1x109+1x54 163 163 154 152 163 163
+Hobiganj 11MW PP Cofidence-E Gas (SIPP, REB) 4x2.90
+82 Shahjibazar GTPP Unit- 8 & 9 Gas (PDB) 2x35 70 66 0 0 0 0 35 Unit-9 Under maint.
+83 Shajibazar 330 MW CCPP Gas (PDB) 2x110+1x110 330 330 95 100 138 138 230 Gt-2 Under maint.
+84 Sylhet 225 MW CCPP Gas (PDB) 1x142+1x89 231 231 100 102 100 100
+85 Sylhet 20 MW GTPP Gas (PDB) 1 x 20 20 20 0 0 20 20
+86 Shahjahanulla 25 MW PP Gas (CIPP, REB) 3x9.34 25 25 13 13 16 16
+87 Bibiana-II 341 MW CCPP (Summit) Gas (IPP) 1x222+1x119 341 341 256 262 341 341
+88 Bibiyana-III 400 MW CCPP Gas (PDB) 1x285+1x115 400 400 390 398 400 400
+89 Bibiyana South 383 MW CCPP Gas (PDB) 1x252+1x131 383 383 395 400 383 383
+90 Shahjibazar 100 MW GTPP Gas (PDB) 1x100 100 100 0 0 0 0 100 Under maint.
+91 Shahjibazar 86MW PP (Shahjibazar) Gas (NENP) 32x2.90 86 86 11 22 83 83
+92 Moulvibazar 10 MW Solar Power Plant Solar IPP 1*10 10 10 12 0 0 0
+Sylhet Zone Total 2360 2315 1466 1509 1674 1674 70 365
+Bheramara GTPP Unit- 3 HSD (PDB) 1 x 20 0 0 0 0
+93 Bheramara 410 MW CCPP Gas (NWPGCL)1 x 278+1 x 132 410 410 0 0 410 410 410 Gas Shortage
+94 Faridpur 50 MW Peaking PP HFO (PDB) 8x6.98 54 54 0 32 30 30
+95 Gopalganj 100 MW Peaking PP HFO (PDB) 16x6.98 109 109 0 35 50 50
+96 Khulna 225 MW CCPP HSD/ Gas (NWPGCL) 1 x 150+1x75 230 230 0 0 230 230
+97 Rupsha 105 MW PP (Orion rupsha) HFO (IPP) 6x18.445 105 105 0 17 105 105
+98 Madhumati 100 MW PP HFO (NWPGCL) 6x18.415 105 105 85 85 105 105
+99 Mongla Orion 100 MW Solar PP Solar (IPP) 100 100 82 0 90 0
+100Maitree Super Thermal 1320 MW PP (U-1) Coal (BIFPCL) 2x617 1234 1148 1234.2 1234.2 1234.2 1234.2
+100Khulna 330 MW CCPP Gas/HSD (BPDB) 1x220+1x116 336 336 0 0 0 0
+** Rupsha 800 MW CCPP Gas/HSD (NWPGCL) Commissioning running
+** Bheramara (HVDC ) India 1000 1000 903 843 1000 1000
+** Nepal Nepal 40 40 0 0 40 40
+Khulna Zone Total 3723 3637 2304 2246 3294 3204 410 0
+101Barisal 110 MW PP (Summit ) HFO (IPP) 7 x 17.076 110 110 32 64 110 110
+Bhola 33 MW PP (Venture) Gas (NENP) 1x34.50 0 0 0 0
+102Bhola 225 MW CCPP Gas (PDB) 2x63+1x68 194 194 113 112 120 120
+103Payra 1320 MW TPP Coal (BCPCL) 2x622 1244 1086 300 300 300 300 786 Under maint
+104Potuakhali 150MW PP (UPPL) HFO (IPP) 8x18.415+1x9.78 150 150 17 100 150 150
+105Barisal Electric 307 MW Coal (IPP) 1x307 307 307 307 307 307 307
+106Barisal 1 MW Solar PP Solar (BPDB) 1x1 1 1 0.59 0 1 0
+107Bhola 220MW CCPP (Nutan Bidyut BD Ltd) Gas/HSD (IPP) 2x75+1x70 220 220 0 0 0 0 220 Under maint
+108Patuakhali 1320 MW (RNPL) Coal RPCL 660*2 1244 1244 1156 1170.6 1170.6 1170.6
+Barishal Zone Total 3470 3312 1926 2054 2159 2158 0 1006
+109a) Baghabari 71 MW GTPP Gas (PDB) 1 x 71 71 71 0 0 0 0 71 Gas Shortage
+b) Baghabari 100 MW GTPP Gas (PDB) 1 x 100 100 100 0 0 0 0 100 Under maint.
+110Baghabari 50 MW Peaking PP HFO (PDB) 6x8.9 52 52 0 30 47 47
+111Bera 70 MW Peaking PP HFO (PDB) 9x8.29 71 71 0 0 32 32
+112Chapainawabganj 100 MW Peaking PP HFO (PDB) 12x8.924 104 104 0 100 100 100
+113Katakhali 50 MW Peaking PP HFO (PDB) 6x8.7 50 50 0 31 40 40
+114Santahar 50 MW Peaking PP HFO (PDB) 6x8.7 50 50 0 32 34 34
+115Sirajgonj 225MW CCPP Unit-1 Gas (NWPGCL) 1x150+1x75 210 214 0 0 214 214 214 Gas Shortage
+116Sirajgonj 225MW CCPP Unit-2 Gas (NWPGCL) 1x150 + 1x75 220 220 0 0 220 220 220 Gas Shortage
+117Sirajgonj 225MW CCPP Unit-3 Gas (NWPGCL) 1x141+1x79 220 220 0 0 220 220 220 Gas Shortage
+118Sirajgonj 400 MW CCPP Unit-4 Gas (IPP) 1x282+1x132 414 414 233 191 413.79 413.79 223 Gas Shortage
+Ullapara 11 MW PP (Summit) Gas (SIPP, REB) 4x2.90
+119Natore 52 MW PP (Rajlanka) HFO (IPP) 6x8.92 52 52 52.2 52.2 52.2 52.2
+120Bagura 113 MW (Confidence) U-1 HFO (IPP) 6*18.55 113 113 55 113 113 113
+121Bagura 113 MW PP (Confidence) U-2 HFO (IPP) 6x18.55 113 113 55 50 113 113
+Amnura 50 MW PP(Sinha) HFO (NENP) 7x7.79
+122 Sirajgonj 6.55 MW Solar Solar (NWPGCL) 1x6 6 6 5.59 0 6 0
+123Sirajganj 68 MW Solar Park Solar (IPP) 68 68 68 66 0 61 0
+124Pabna Solar 100 MW Solar (IPP) 100 100 100 110 0 100 0
+125Sirajgonj 2 MW Wind Power Plant Wind (BPDB) 2 2 0 0 0 0
+126Pabna 64 MW Solar Plant 65 65 61.65 0 55.42 0
+127Adani Power Jharkhanda Ltd (Import) 2x748 1496 1436 1235 1416 1200 1400
+Rajshahi Zone Total 3577 3521 1873 2015 3021 2999 948 100
+128Barapukuria TPP Unit-1 &2 Coal (PDB) 2x 125 250 170 0 0 0 0 170 Under maint U-2
+129Barapukuria 275 MW TPP Unit-3 Coal (PDB) 1 x 274 274 274 0 0 0 0 274 ID Fan Problem
+130Rangpur 20 MW GTPP HSD (PDB) 1 x 20 20 20 0 0 20 20
+131Rangpur 113 MW PP (Confidence) HFO (IPP) 7*16x 2*3 113 113 70 113 113 113
+132Saidpur 20 MW GTPP HSD (PDB) 1 x 20 20 20 0 0 14 14
+133Majipara, Tatulia 8 MW Solar PP (Sympa Power) Solar (IPP) 1 x 8 8 8 6 0 5 0
+134Thakurgaon 115MW PP (Energypac) HFO (IPP) 6*20 115 115 90 115 115 115
+135Lalmonirhat 30 MW Solar (Intraco) Solar (IPP) 1*30 30 30 16 0 30 0
+136Teesta Solar Limited Solar (IPP) 1 x 200 200 200 188 0 177.37 0
+137Saidpur 150 MW Simple Cycle Power Plant HSD PDB 1*150 162 162 0 0 0 0
+Rangpur Zone Total 1192 1112 370 228 474 262 0 444
+Sub-total: Plants in operation 29593 28793 14819.2 16157 23594 23150 4360 2440
+Available Power at Sub-station end excluding P/S auxiliary use and Transmission loss #N/A 15341 #N/A #N/A
+(B) Plants under long term maintenance/ contract expired
+Sub-Total: Plants under long term maintenance/ contract expired 0 0 0 0 0 0 0
+137Gross Total 29593 28793 14819 16157 23594 23150 4360 2440
+(C) Actual data of 19.10.26(Yesterday)Monday :
+01. Max. Demand at eve. peak (Generation end) : 16346 MW, at = 19:00 Hr. 10. Zone wise Demand and Load-shed at Evening Peak (Sub-station end) :
+02. Evening-peak Generation (Generation end) : 16157 MW, at = 19:00 Hr. Zone Demand Supply Load Shed Zone Demand Supply Load Shed
+03. Highest Generation (Generation end) : 16157 MW, at = 19:00 Hr. MW MW MW MW MW MW
+04. Day Peak Demand : 14836 MW, at = 12:00 Hr. Dhaka 6006 5941 65 Mymensingh 1292 1177 115
+05. Day-peak Generation (Generation end) : 14819 MW, at = 12:00 Hr. Chattogram 1554 1554 0 Sylhet 656 655 1
+06. Minimum Generation (Generation end) : 12650 MW, at = 06:00 Hr. Khulna 1720 1720 0 Barishal 454 454 0
+Evening Peak Load-shed (Sub-station end) : 181 MW, at = 06:00 Hr. Rajshahi 1497 1497 0 Rangpur 879 879 0
+Cumilla 1464 1464 0
+07. Generation shortfall at evening peak due to : : Total 15522 15341 181
+a) Gas/LF limitation : 4360 MW 11. Fuel cost : (a) Gas = 387588182Taka (c) Coal = 873424395 Taka
+d) Coal supply Limitation : 0 MW (b) Oil = 1170423727Taka (d) Renewable 79465922 Taka
+b) Low water level in Kaptai lake : 0 MW (e)Import= 355385993Taka Total = 2866288220 Taka
+c) Plants under shut down/ maintenance : 2440 MW 12. Maximum Temperature: 33.7
+08. Total Energy (Generation + Import) : 348.44 MKWh 13. Energy Flow from East to West: 0
+By Gas = 114.385MKWH By Oil = 57.381MKWh 14. Energy Flow from West to East: 42760672.73
+By Coal = 112.316MKWH By Hydro&Wind= 5.354MKWh 15. Power Flow during Peak Demand (W-E): 1773
+By Solar= 4.964MKWH Imported= 54.041MKWh 16. Maximum Power Flow (W-E): 2488
+09. Total Gas Supplied : 828 MMCFD
+(D) Forecast of 20-10-2026 (Today) :
+01.Probable Maximum Demand at Day Peak: 14490.00 MW 04. Probable Load Shed: 0 At evening peak (Sub-station end)
+02.Probable Maximum Demand at Evening Peak: 15100.00 MW 05. Probable Total Energy Generation: 335.22 MKWHr.
+03.Probable Maximum Generation at Evening Peak: 15100.00 MW 06. Probable Maximum Temperature: 32.00°C
+* Captive Power ** Imported Power
+#Remarks: Highest Generation 17200 MW on 20-05-2026 at 21:00 (Md. Helalur Rahman)
+Deputy Secretary, Generation
+--- page 2 TABLE 0 (first 40 rows) ---
+['Sl.\nNo.', 'Name of Power Station', None, 'Nos. of Unit\nX\nCapacity\n(MW)', 'Installed\nCapacity\n(MW)', 'Derated/\nPresent\nCapacity\n(MW)', '19-Oct-26 (Yesterday)', None, '20-10-2026 (Today)', None, '19.10.26 (Yesterday)\nGen. shortfall for :', None, 'Status of Machines under\nshut-down/ Maintenance', None]
+[None, None, None, None, None, None, 'Actual Peak\nGeneration (MW)', None, 'Probable Peak\nGeneration (MW)', None, None, None, None, None]
+[None, None, None, None, None, None, None, None, None, None, 'Gas/Coal/oil/W\nater Limitation\nMW', 'Machines\nshut down\n(MW)', 'Description/ Remarks', 'Probable\nstart-up\ndate']
+[None, None, None, None, None, None, 'Day', 'Evening', 'Day', 'Evening', None, None, None, None]
+['79', 'Fenchugonj CCPP Phase-1 Gas (PDB)', None, '2x32+1x33', '97', '70', '40', '40', '0', '0', '', '', '', '']
+['80', 'Fenchugonj CCPP Phase-2 Gas (PDB)', None, '2x35+1x35', '104', '90', '0', '20', '30', '30', '70', '', 'Gas Shortage', '']
+['81', 'Kushiara 163 MW CCPP (KP) Gas (IPP)', None, '1x109+1x54', '163', '163', '154', '152', '163', '163', '', '', '', '']
+['', 'Hobiganj 11MW PP Cofidence-E Gas (SIPP, REB)', None, '4x2.90', '', '', '', '', '', '', '', '', '', '']
+['82', 'Shahjibazar GTPP Unit- 8 & 9 Gas (PDB)', None, '2x35', '70', '66', '0', '0', '0', '0', '', '35', 'Unit-9 Under maint.', '']
+['83', 'Shajibazar 330 MW CCPP Gas (PDB)', None, '2x110+1x110', '330', '330', '95', '100', '138', '138', '', '230', 'Gt-2 Under maint.', '']
+['84', 'Sylhet 225 MW CCPP Gas (PDB)', None, '1x142+1x89', '231', '231', '100', '102', '100', '100', '', '', '', '']
+['85', 'Sylhet 20 MW GTPP Gas (PDB)', None, '1 x 20', '20', '20', '0', '0', '20', '20', '', '', '', '']
+['86', 'Shahjahanulla 25 MW PP Gas (CIPP, REB)', None, '3x9.34', '25', '25', '13', '13', '16', '16', '', '', '', '']
+['87', 'Bibiana-II 341 MW CCPP (Summit) Gas (IPP)', None, '1x222+1x119', '341', '341', '256', '262', '341', '341', '', '', '', '']
+['88', 'Bibiyana-III 400 MW CCPP Gas (PDB)', None, '1x285+1x115', '400', '400', '390', '398', '400', '400', '', '', '', '']
+['89', 'Bibiyana South 383 MW CCPP Gas (PDB)', None, '1x252+1x131', '383', '383', '395', '400', '383', '383', '', '', '', '']
+['90', 'Shahjibazar 100 MW GTPP Gas (PDB)', None, '1x100', '100', '100', '0', '0', '0', '0', '', '100', 'Under maint.', '']
+['91', 'Shahjibazar 86MW PP (Shahjibazar) Gas (NENP)\nMoulvibazar 10 MW Solar Power Plant Solar IPP', None, '32x2.90', '86', '86', '11', '22', '83', '83', '', '', '', '']
+['92', None, None, '1*10', '10', '10', '12', '0', '0', '0', '', '', '', '']
+['Sylhet Zone Total', None, None, '', '2360', '2315', '1466', '1509', '1674', '1674', '70', '365', '', '']
+['', 'Bheramara GTPP Unit- 3 HSD (PDB)', None, '1 x 20', '', '', '0', '0', '0', '0', '', '', '', '']
+['93', 'Bheramara 410 MW CCPP Gas (NWPGCL)', None, '1 x 278+1 x 13', '2 410', '410', '0', '0', '410', '410', '410', '', 'Gas Shortage', '']
+['94', 'Faridpur 50 MW Peaking PP HFO (PDB)', None, '8x6.98', '54', '54', '0', '32', '30', '30', '', '', '', '']
+['95', 'Gopalganj 100 MW Peaking PP HFO (PDB)', None, '16x6.98', '109', '109', '0', '35', '50', '50', '', '', '', '']
+['96', 'Khulna 225 MW CCPP HSD/ Gas (NWPGCL)', None, '1 x 150+1x75', '230', '230', '0', '0', '230', '230', '', '', '', '']
+['97', 'Rupsha 105 MW PP (Orion rupsha) HFO (IPP)', None, '6x18.445', '105', '105', '0', '17', '105', '105', '', '', '', '']
+['98', 'Madhumati 100 MW PP HFO (NWPGCL)', None, '6x18.415', '105', '105', '85', '85', '105', '105', '', '', '', '']
+['99', 'Mongla Orion 100 MW Solar PP Solar (IPP)', None, '', '100', '100', '82', '0', '90', '0', '', '', '', '']
+['100', 'Maitree Super Thermal 1320 MW PP (U-1) Coal (BIFPCL)', None, '2x617', '1234', '1148', '1234.2', '1234.2', '1234.2', '1234.2', '', '', '', '']
+['100', 'Khulna 330 MW CCPP Gas/HSD (BPDB)', None, '1x220+1x116', '336', '336', '0', '0', '0', '0', '', '', '', '']
+['**', 'Rupsha 800 MW CCPP Gas/HSD (NWPGCL)', None, '', '', '', '', '', '', '', '', '', 'Commissioning running', '']
+['**', 'Bheramara (HVDC ) India', None, '', '1000', '1000', '903', '843', '1000', '1000', '', '', '', '']
+['**', 'Nepal Nepal', None, '', '40', '40', '0', '0', '40', '40', '', '', '', '']
+['Khulna Zone Total', None, None, '', '3723', '3637', '2304', '2246', '3294', '3204', '410', '0', '', '']
+['101', 'Barisal 110 MW PP (Summit ) HFO (IPP)', None, '7 x 17.076', '110', '110', '32', '64', '110', '110', '', '', '', '']
+['', 'Bhola 33 MW PP (Venture) Gas (NENP)', None, '1x34.50', '', '', '0', '0', '0', '0', '', '', '', '']
+['102', 'Bhola 225 MW CCPP Gas (PDB)', None, '2x63+1x68', '194', '194', '113', '112', '120', '120', '', '', '', '']
+['103', 'Payra 1320 MW TPP Coal (BCPCL)', None, '2x622', '1244', '1086', '300', '300', '300', '300', '', '786', 'Under maint', '']
+['104', 'Potuakhali 150MW PP (UPPL) HFO (IPP) 8', None, 'x18.415+1x9.7', '8 150', '150', '17', '100', '150', '150', '', '', '', '']
+['105', 'Barisal Electric 307 MW Coal (IPP)', None, '1x307', '307', '307', '307', '307', '307', '307', '', '', '', '']

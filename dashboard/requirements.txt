@@ -1,0 +1,6 @@
+# Streamlit Community Cloud installs THIS file when the main file is dashboard/app.py.
+# The dashboard runs the trained GRU in plain numpy, so torch/xgboost are not needed here.
+streamlit>=1.50
+plotly>=5.20
+pandas>=2.2
+numpy>=1.26

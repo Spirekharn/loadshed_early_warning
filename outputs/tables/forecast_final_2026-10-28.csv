@@ -1,0 +1,11 @@
+unit,as_of,T+1_date,T+1_alert,T+1_best_guess,T+1_P(Low/Med/High),T+1_confidence,T+1_main_driver,T+3_date,T+3_alert,T+3_best_guess,T+3_P(Low/Med/High),T+3_confidence,T+3_main_driver
+National,2026-10-28,2026-10-29,High,High,0.13/0.24/0.63,0.63,grid,2026-10-31,High,High,0.18/0.29/0.52,0.52,grid
+Dhaka,2026-10-28,2026-10-29,Medium,Medium,0.14/0.73/0.13,0.73,context,2026-10-31,Medium,Medium,0.22/0.64/0.15,0.64,context
+Chattogram,2026-10-28,2026-10-29,Medium,Medium,0.15/0.56/0.29,0.56,context,2026-10-31,Medium,Medium,0.26/0.49/0.25,0.49,context
+Rajshahi,2026-10-28,2026-10-29,Medium,Medium,0.18/0.57/0.25,0.57,context,2026-10-31,Uncertain,Medium,0.25/0.46/0.29,0.46,context
+Mymensingh,2026-10-28,2026-10-29,Uncertain,Medium,0.14/0.54/0.31,0.54,context,2026-10-31,Uncertain,Medium,0.19/0.46/0.35,0.46,context
+Sylhet,2026-10-28,2026-10-29,Medium,Medium,0.17/0.58/0.26,0.58,context,2026-10-31,Medium,Medium,0.22/0.49/0.29,0.49,context
+Barishal,2026-10-28,2026-10-29,Uncertain,Medium,0.19/0.49/0.32,0.49,context,2026-10-31,Uncertain,Medium,0.27/0.43/0.29,0.43,context
+Rangpur,2026-10-28,2026-10-29,Medium,Medium,0.17/0.57/0.26,0.57,context,2026-10-31,Uncertain,Medium,0.24/0.47/0.28,0.47,context
+Cumilla,2026-10-28,2026-10-29,Medium,Medium,0.14/0.57/0.30,0.57,grid,2026-10-31,Medium,Medium,0.22/0.50/0.28,0.5,grid
+Khulna,2026-10-28,2026-10-29,Uncertain,Medium,0.16/0.51/0.33,0.51,context,2026-10-31,Uncertain,Medium,0.22/0.46/0.32,0.46,context

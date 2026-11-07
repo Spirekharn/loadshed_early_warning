@@ -1,0 +1,12 @@
+{
+  "T+1": {
+    "gru": 0.1,
+    "xgb": 0.6,
+    "persistence": 0.3
+  },
+  "T+3": {
+    "gru": 0.3,
+    "xgb": 0.5,
+    "persistence": 0.2
+  }
+}

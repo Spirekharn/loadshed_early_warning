@@ -1,0 +1,9 @@
+,,macro_f1,macro_f1,bal_acc,bal_acc,high_recall,high_recall,high_precision,high_precision,missed_high,missed_high,false_alarm,false_alarm,ece,ece,brier,brier,coverage,coverage
+,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+model,horizon,,,,,,,,,,,,,,,,,,
+MM-GRU calibrated,T+1,0.593,0.046,0.657,0.036,0.76,0.069,0.459,0.053,215.333,61.785,816.0,166.096,0.04,0.013,0.424,0.042,,
+MM-GRU calibrated,T+3,0.499,0.011,0.564,0.014,0.69,0.038,0.312,0.014,277.333,34.02,1367.333,149.346,0.061,0.007,0.505,0.02,,
+MM-GRU calibrated+abstain (kept only),T+1,0.695,0.037,0.741,0.019,0.891,0.039,0.622,0.079,63.333,22.502,330.667,127.563,,,,,0.631,0.024
+MM-GRU calibrated+abstain (kept only),T+3,0.569,0.004,0.632,0.018,0.778,0.071,0.393,0.015,126.667,50.895,672.0,14.0,,,,,0.655,0.034
+MM-GRU raw,T+1,0.593,0.046,0.657,0.036,0.76,0.069,0.459,0.053,215.333,61.785,816.0,166.096,0.123,0.072,0.458,0.071,,
+MM-GRU raw,T+3,0.499,0.011,0.564,0.014,0.69,0.038,0.312,0.014,277.333,34.02,1367.333,149.346,0.184,0.045,0.572,0.048,,

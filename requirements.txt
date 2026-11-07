@@ -1,0 +1,23 @@
+# Full pipeline (data preparation, training, evaluation, dashboard).
+# Tested with Python 3.13 on Windows 11 (exact versions: requirements_frozen.txt).
+#   pip install -r requirements.txt
+# On Windows/macOS the PyPI "torch" wheel is CPU-only (small). On Linux you can save ~2 GB with:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+xgboost>=2.0
+shap>=0.45
+matplotlib>=3.8
+openpyxl>=3.1
+holidays>=0.50
+torch>=2.2
+# BPDB PDF scraper / parser (scripts/06_extend_bpdb.py)
+requests>=2.31
+beautifulsoup4>=4.12
+pdfplumber>=0.11
+# dashboard
+streamlit>=1.50
+plotly>=5.20
+# notebooks
+ipykernel
