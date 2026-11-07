@@ -120,3 +120,7 @@ report/       IEEE report and slides
 
 The raw BPDB PDFs are about 850 MB so they are not in the repo. `python scripts/06_extend_bpdb.py --download` gets
 them again.
+
+## Links
+https://loadshed-warning-system.streamlit.app/
+https://www.kaggle.com/code/swagotoroy/load-shedding-risk-early-warning-bangladesh
