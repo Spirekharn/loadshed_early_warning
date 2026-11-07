@@ -13,6 +13,9 @@ tried to predict it a few days before it happens. For the national grid and the 
 the load-shedding risk will be Low, Medium or High tomorrow (T+1) and three days from now (T+3). It also gives a
 confidence, and when the confidence is too low it says "Uncertain" instead of guessing.
 
+- Live dashboard: https://loadshed-warning-system.streamlit.app/
+- Kaggle notebook: https://www.kaggle.com/code/swagotoroy/load-shedding-risk-early-warning-bangladesh
+
 What's in the repo:
 - `dashboard/app.py`: Streamlit dashboard. It shows the latest alert, lets you run the model on any past day and
   compare with what really happened, and has a what-if page where you can change the numbers and see how the
@@ -120,7 +123,3 @@ report/       IEEE report and slides
 
 The raw BPDB PDFs are about 850 MB so they are not in the repo. `python scripts/06_extend_bpdb.py --download` gets
 them again.
-
-## Links
-https://loadshed-warning-system.streamlit.app/
-https://www.kaggle.com/code/swagotoroy/load-shedding-risk-early-warning-bangladesh
